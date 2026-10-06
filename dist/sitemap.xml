@@ -4,7 +4,7 @@
     <loc>https://genjutsuaigenerator.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/"/>
@@ -17,7 +17,7 @@
     <loc>https://genjutsuaigenerator.com/ja/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/"/>
@@ -27,10 +27,10 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/"/>
@@ -43,7 +43,7 @@
     <loc>https://genjutsuaigenerator.com/es/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/"/>
@@ -56,7 +56,7 @@
     <loc>https://genjutsuaigenerator.com/pt/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/"/>
@@ -69,7 +69,7 @@
     <loc>https://genjutsuaigenerator.com/de/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/"/>
@@ -82,7 +82,7 @@
     <loc>https://genjutsuaigenerator.com/fr/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/"/>
@@ -95,7 +95,7 @@
     <loc>https://genjutsuaigenerator.com/generator/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/generator/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/generator/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/generator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/generator/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/generator/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/generator/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/generator/"/>
@@ -108,7 +108,7 @@
     <loc>https://genjutsuaigenerator.com/ja/generator/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/generator/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/generator/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/generator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/generator/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/generator/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/generator/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/generator/"/>
@@ -118,10 +118,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/generator/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/generator/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/generator/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/generator/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/generator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/generator/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/generator/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/generator/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/generator/"/>
@@ -134,7 +134,7 @@
     <loc>https://genjutsuaigenerator.com/es/generator/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/generator/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/generator/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/generator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/generator/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/generator/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/generator/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/generator/"/>
@@ -147,7 +147,7 @@
     <loc>https://genjutsuaigenerator.com/pt/generator/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/generator/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/generator/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/generator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/generator/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/generator/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/generator/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/generator/"/>
@@ -160,7 +160,7 @@
     <loc>https://genjutsuaigenerator.com/de/generator/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/generator/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/generator/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/generator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/generator/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/generator/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/generator/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/generator/"/>
@@ -173,7 +173,7 @@
     <loc>https://genjutsuaigenerator.com/fr/generator/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/generator/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/generator/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/generator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/generator/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/generator/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/generator/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/generator/"/>
@@ -186,7 +186,7 @@
     <loc>https://genjutsuaigenerator.com/dashboard/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/dashboard/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/dashboard/"/>
@@ -199,7 +199,7 @@
     <loc>https://genjutsuaigenerator.com/ja/dashboard/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/dashboard/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/dashboard/"/>
@@ -209,10 +209,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/dashboard/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/dashboard/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/dashboard/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/dashboard/"/>
@@ -225,7 +225,7 @@
     <loc>https://genjutsuaigenerator.com/es/dashboard/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/dashboard/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/dashboard/"/>
@@ -238,7 +238,7 @@
     <loc>https://genjutsuaigenerator.com/pt/dashboard/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/dashboard/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/dashboard/"/>
@@ -251,7 +251,7 @@
     <loc>https://genjutsuaigenerator.com/de/dashboard/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/dashboard/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/dashboard/"/>
@@ -264,7 +264,7 @@
     <loc>https://genjutsuaigenerator.com/fr/dashboard/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/dashboard/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/dashboard/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/dashboard/"/>
@@ -277,7 +277,7 @@
     <loc>https://genjutsuaigenerator.com/pricing/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/pricing/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/pricing/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/pricing/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/pricing/"/>
@@ -290,7 +290,7 @@
     <loc>https://genjutsuaigenerator.com/ja/pricing/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/pricing/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/pricing/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/pricing/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/pricing/"/>
@@ -300,10 +300,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/pricing/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/pricing/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/pricing/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/pricing/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/pricing/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/pricing/"/>
@@ -316,7 +316,7 @@
     <loc>https://genjutsuaigenerator.com/es/pricing/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/pricing/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/pricing/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/pricing/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/pricing/"/>
@@ -329,7 +329,7 @@
     <loc>https://genjutsuaigenerator.com/pt/pricing/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/pricing/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/pricing/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/pricing/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/pricing/"/>
@@ -342,7 +342,7 @@
     <loc>https://genjutsuaigenerator.com/de/pricing/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/pricing/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/pricing/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/pricing/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/pricing/"/>
@@ -355,7 +355,7 @@
     <loc>https://genjutsuaigenerator.com/fr/pricing/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/pricing/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/pricing/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/pricing/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/pricing/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/pricing/"/>
@@ -368,7 +368,7 @@
     <loc>https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/"/>
@@ -381,7 +381,7 @@
     <loc>https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/"/>
@@ -391,10 +391,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/"/>
@@ -407,7 +407,7 @@
     <loc>https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/"/>
@@ -420,7 +420,7 @@
     <loc>https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/"/>
@@ -433,7 +433,7 @@
     <loc>https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/"/>
@@ -446,7 +446,7 @@
     <loc>https://genjutsuaigenerator.com/fr/how-to-make-ai-motion-transfer-video/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-make-ai-motion-transfer-video/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-make-ai-motion-transfer-video/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-make-ai-motion-transfer-video/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-make-ai-motion-transfer-video/"/>
@@ -459,7 +459,7 @@
     <loc>https://genjutsuaigenerator.com/ai-dance-generator-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/ai-dance-generator-guide/"/>
@@ -472,7 +472,7 @@
     <loc>https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/ai-dance-generator-guide/"/>
@@ -482,10 +482,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/ai-dance-generator-guide/"/>
@@ -498,7 +498,7 @@
     <loc>https://genjutsuaigenerator.com/es/ai-dance-generator-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/ai-dance-generator-guide/"/>
@@ -511,7 +511,7 @@
     <loc>https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/ai-dance-generator-guide/"/>
@@ -524,7 +524,7 @@
     <loc>https://genjutsuaigenerator.com/de/ai-dance-generator-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/ai-dance-generator-guide/"/>
@@ -537,7 +537,7 @@
     <loc>https://genjutsuaigenerator.com/fr/ai-dance-generator-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/ai-dance-generator-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/ai-dance-generator-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/ai-dance-generator-guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/ai-dance-generator-guide/"/>
@@ -550,7 +550,7 @@
     <loc>https://genjutsuaigenerator.com/character-swap-vs-face-swap/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/"/>
@@ -563,7 +563,7 @@
     <loc>https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/"/>
@@ -573,10 +573,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/"/>
@@ -589,7 +589,7 @@
     <loc>https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/"/>
@@ -602,7 +602,7 @@
     <loc>https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/"/>
@@ -615,7 +615,7 @@
     <loc>https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/"/>
@@ -628,7 +628,7 @@
     <loc>https://genjutsuaigenerator.com/fr/character-swap-vs-face-swap/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/character-swap-vs-face-swap/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/character-swap-vs-face-swap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/character-swap-vs-face-swap/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/character-swap-vs-face-swap/"/>
@@ -641,7 +641,7 @@
     <loc>https://genjutsuaigenerator.com/terms/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/terms/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/terms/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/terms/"/>
@@ -654,7 +654,7 @@
     <loc>https://genjutsuaigenerator.com/ja/terms/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/terms/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/terms/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/terms/"/>
@@ -664,10 +664,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/terms/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/terms/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/terms/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/terms/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/terms/"/>
@@ -680,7 +680,7 @@
     <loc>https://genjutsuaigenerator.com/es/terms/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/terms/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/terms/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/terms/"/>
@@ -693,7 +693,7 @@
     <loc>https://genjutsuaigenerator.com/pt/terms/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/terms/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/terms/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/terms/"/>
@@ -706,7 +706,7 @@
     <loc>https://genjutsuaigenerator.com/de/terms/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/terms/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/terms/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/terms/"/>
@@ -719,7 +719,7 @@
     <loc>https://genjutsuaigenerator.com/fr/terms/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/terms/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/terms/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/terms/"/>
@@ -732,7 +732,7 @@
     <loc>https://genjutsuaigenerator.com/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/privacy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/privacy/"/>
@@ -745,7 +745,7 @@
     <loc>https://genjutsuaigenerator.com/ja/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/privacy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/privacy/"/>
@@ -755,10 +755,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/privacy/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/privacy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/privacy/"/>
@@ -771,7 +771,7 @@
     <loc>https://genjutsuaigenerator.com/es/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/privacy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/privacy/"/>
@@ -784,7 +784,7 @@
     <loc>https://genjutsuaigenerator.com/pt/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/privacy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/privacy/"/>
@@ -797,7 +797,7 @@
     <loc>https://genjutsuaigenerator.com/de/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/privacy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/privacy/"/>
@@ -810,7 +810,7 @@
     <loc>https://genjutsuaigenerator.com/fr/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/privacy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/privacy/"/>
@@ -823,7 +823,7 @@
     <loc>https://genjutsuaigenerator.com/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/about/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/about/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/about/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/about/"/>
@@ -836,7 +836,7 @@
     <loc>https://genjutsuaigenerator.com/ja/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/about/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/about/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/about/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/about/"/>
@@ -846,10 +846,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/about/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/about/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/about/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/about/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/about/"/>
@@ -862,7 +862,7 @@
     <loc>https://genjutsuaigenerator.com/es/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/about/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/about/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/about/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/about/"/>
@@ -875,7 +875,7 @@
     <loc>https://genjutsuaigenerator.com/pt/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/about/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/about/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/about/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/about/"/>
@@ -888,7 +888,7 @@
     <loc>https://genjutsuaigenerator.com/de/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/about/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/about/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/about/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/about/"/>
@@ -901,7 +901,7 @@
     <loc>https://genjutsuaigenerator.com/fr/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/about/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/about/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/about/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/about/"/>
@@ -914,7 +914,7 @@
     <loc>https://genjutsuaigenerator.com/what-is-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/"/>
@@ -927,7 +927,7 @@
     <loc>https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/"/>
@@ -937,10 +937,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/"/>
@@ -953,7 +953,7 @@
     <loc>https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/"/>
@@ -966,7 +966,7 @@
     <loc>https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/"/>
@@ -979,7 +979,7 @@
     <loc>https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/"/>
@@ -992,7 +992,7 @@
     <loc>https://genjutsuaigenerator.com/fr/what-is-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/what-is-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/what-is-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/what-is-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/what-is-genjutsu-ai/"/>
@@ -1005,7 +1005,7 @@
     <loc>https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/"/>
@@ -1018,7 +1018,7 @@
     <loc>https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/"/>
@@ -1028,10 +1028,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/"/>
@@ -1044,7 +1044,7 @@
     <loc>https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/"/>
@@ -1057,7 +1057,7 @@
     <loc>https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/"/>
@@ -1070,7 +1070,7 @@
     <loc>https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/"/>
@@ -1083,7 +1083,7 @@
     <loc>https://genjutsuaigenerator.com/fr/how-to-use-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/how-to-use-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/how-to-use-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/how-to-use-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/how-to-use-genjutsu-ai/"/>
@@ -1096,7 +1096,7 @@
     <loc>https://genjutsuaigenerator.com/best-genjutsu-ai-generators/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/"/>
@@ -1109,7 +1109,7 @@
     <loc>https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/"/>
@@ -1119,10 +1119,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/"/>
@@ -1135,7 +1135,7 @@
     <loc>https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/"/>
@@ -1148,7 +1148,7 @@
     <loc>https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/"/>
@@ -1161,7 +1161,7 @@
     <loc>https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/"/>
@@ -1174,7 +1174,7 @@
     <loc>https://genjutsuaigenerator.com/fr/best-genjutsu-ai-generators/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/best-genjutsu-ai-generators/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/best-genjutsu-ai-generators/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/best-genjutsu-ai-generators/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/best-genjutsu-ai-generators/"/>
@@ -1187,7 +1187,7 @@
     <loc>https://genjutsuaigenerator.com/free-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/free-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/free-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/free-genjutsu-ai/"/>
@@ -1200,7 +1200,7 @@
     <loc>https://genjutsuaigenerator.com/ja/free-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/free-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/free-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/free-genjutsu-ai/"/>
@@ -1210,10 +1210,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/free-genjutsu-ai/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/free-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/free-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/free-genjutsu-ai/"/>
@@ -1226,7 +1226,7 @@
     <loc>https://genjutsuaigenerator.com/es/free-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/free-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/free-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/free-genjutsu-ai/"/>
@@ -1239,7 +1239,7 @@
     <loc>https://genjutsuaigenerator.com/pt/free-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/free-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/free-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/free-genjutsu-ai/"/>
@@ -1252,7 +1252,7 @@
     <loc>https://genjutsuaigenerator.com/de/free-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/free-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/free-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/free-genjutsu-ai/"/>
@@ -1265,7 +1265,7 @@
     <loc>https://genjutsuaigenerator.com/fr/free-genjutsu-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/free-genjutsu-ai/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/free-genjutsu-ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/free-genjutsu-ai/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/free-genjutsu-ai/"/>
@@ -1278,7 +1278,7 @@
     <loc>https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/"/>
@@ -1291,7 +1291,7 @@
     <loc>https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/"/>
@@ -1301,10 +1301,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/</loc>
+    <loc>https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/"/>
@@ -1317,7 +1317,7 @@
     <loc>https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/"/>
@@ -1330,7 +1330,7 @@
     <loc>https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/"/>
@@ -1343,7 +1343,7 @@
     <loc>https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/"/>
@@ -1356,7 +1356,7 @@
     <loc>https://genjutsuaigenerator.com/fr/higgsfield-ai-genjutsu-alternative/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://genjutsuaigenerator.com/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://genjutsuaigenerator.com/ja/higgsfield-ai-genjutsu-alternative/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://genjutsuaigenerator.com/zh/higgsfield-ai-genjutsu-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://genjutsuaigenerator.com/zh-hant/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://genjutsuaigenerator.com/es/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://genjutsuaigenerator.com/pt/higgsfield-ai-genjutsu-alternative/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://genjutsuaigenerator.com/de/higgsfield-ai-genjutsu-alternative/"/>

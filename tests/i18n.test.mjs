@@ -4,7 +4,7 @@ import {supportedLocales, defaultLocale, localizeUrl, getLocaleData} from '../li
 
 test('i18n - supported locales contains 7 primary languages', () => {
   assert.equal(supportedLocales.length, 7);
-  assert.deepEqual(supportedLocales, ['en', 'ja', 'zh', 'es', 'pt', 'de', 'fr']);
+  assert.deepEqual(supportedLocales, ['en', 'ja', 'zh-hant', 'es', 'pt', 'de', 'fr']);
   assert.equal(defaultLocale, 'en');
 });
 
@@ -17,6 +17,9 @@ test('i18n - localizeUrl produces clean localized paths', () => {
   assert.equal(localizeUrl('terms', 'en'), '/terms/');
 
   // Other locales have locale prefix
+  assert.equal(localizeUrl('', 'zh-hant'), '/zh-hant/');
+  assert.equal(localizeUrl('generator', 'zh-hant'), '/zh-hant/generator/');
+  assert.equal(localizeUrl('what-is', 'zh-hant'), '/zh-hant/what-is/');
   assert.equal(localizeUrl('', 'ja'), '/ja/');
   assert.equal(localizeUrl('generator', 'ja'), '/ja/generator/');
   assert.equal(localizeUrl('pricing', 'es'), '/es/pricing/');
