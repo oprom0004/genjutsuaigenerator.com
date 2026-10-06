@@ -92,6 +92,25 @@ document.addEventListener('DOMContentLoaded', () => {
   if (document.getElementById('user-videos-grid')) {
     initDashboard(userState);
   }
+
+  // Copy template buttons on article pages
+  document.querySelectorAll('.btn-copy-template').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const prompt = btn.getAttribute('data-prompt');
+      if (prompt) {
+        navigator.clipboard.writeText(prompt).then(() => {
+          const originalText = btn.textContent;
+          btn.textContent = 'Copied!';
+          showToast('Prompt copied to clipboard!');
+          setTimeout(() => {
+            btn.textContent = originalText;
+          }, 2000);
+        }).catch(() => {
+          showToast('Failed to copy prompt.');
+        });
+      }
+    });
+  });
 });
 
 // -------------------------------------------------------------

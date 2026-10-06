@@ -461,6 +461,229 @@
           "body": "We believe visual storytelling should not be constrained by complex motion capture hardware, expensive studio spaces, or intensive 3D rigging workflows. Genjutsu AI brings studio-grade character animation directly to web creators worldwide."
         }
       ]
+    },
+    "what-is-genjutsu-ai": {
+      "slug": "what-is-genjutsu-ai",
+      "aliases": [
+        "what-is"
+      ],
+      "navLabel": "¿Qué es Genjutsu AI?",
+      "metaTitle": "¿Qué es Genjutsu AI? Guía Completa de Transferencia de Movimiento",
+      "metaDescription": "Discover what Genjutsu AI is, how the Genjutsu model powers character motion transfer, and why it is revolutionizing AI dance videos in 2026.",
+      "h1": "¿Qué es Genjutsu AI? Guía Completa de Transferencia de Movimiento",
+      "intro": "Genjutsu AI represents a paradigm shift in generative video: instead of prompt-guessing, it transfers precise human choreography onto still characters while preserving 100% facial and stylistic identity.",
+      "quickAnswer": "Genjutsu AI is a video-to-video deep learning framework that extracts full-body skeletal motion, hand gestures, and camera tracking from a source video and maps it onto any 2D, 3D, or real character image. Popularized by models like Higgsfield Genjutsu, it enables creators to produce seamless, identity-locked vertical dance videos in minutes without 3D rigs or green screens.",
+      "sections": [
+        {
+          "heading": "The Origin and Meaning of 'Genjutsu' in AI",
+          "body": "In Japanese mythology and pop culture, 'Genjutsu' (幻術) refers to illusory techniques that manipulate perception and reality. In 2026, AI researchers and generative video platforms—most notably Higgsfield AI—adopted this term to designate a new generation of 'reality manipulation' models. Rather than generating random hallucinations from scratch, Genjutsu AI warps reality by swapping characters and transforming video dynamics with surgical precision."
+        },
+        {
+          "heading": "How the Genjutsu Motion Synthesis Architecture Operates",
+          "body": "Traditional text-to-video models suffer from severe temporal jitter: faces morph between frames, and characters lose coherence. Genjutsu AI solves this through a multi-stage reference pipeline: 1) 3D DensePose skeletal joint extraction from reference choreography; 2) Identity feature locking preserving facial mesh, clothing folds, and hair geometry; 3) Latent video-to-video diffusion that synthesizes natural fabric physics and kinetic rhythm."
+        },
+        {
+          "heading": "Genjutsu AI vs. Legacy Face Swap & Text-to-Video",
+          "body": "Unlike primitive deepfake face-swapping—which only replaces an oval facial mask on someone else's body—Genjutsu AI rebuilds the entire character from head to toe. It honors the character's unique proportions, footwear, and art style while matching the lighting and depth of the choreography."
+        },
+        {
+          "heading": "Why Genjutsu AI is Surging in Social Video Production",
+          "body": "Short-form video platforms (TikTok, Instagram Reels, YouTube Shorts) reward rhythmic choreography, unexpected character contrasts, and high visual retention. Creators use Genjutsu AI to animate historical figures doing modern hip-hop, bring anime characters into real-world dance trends, and produce virtual influencer content at a fraction of 3D motion capture costs."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between Genjutsu AI and Higgsfield Genjutsu?",
+          "a": "Higgsfield AI developed the underlying Genjutsu model for complex studio VFX workflows. Genjutsu AI Generator (genjutsuaigenerator.com) provides a browser-based, instant one-click studio designed specifically for creators seeking fast, ready-to-post 9:16 vertical dance and motion transfer videos."
+        },
+        {
+          "q": "Does Genjutsu AI work on illustrated and 3D characters?",
+          "a": "Yes. Genjutsu AI preserves original artistic styling: 2D anime illustrations keep clean cel-shading outlines, and 3D digital sculpts maintain specular lighting and material shaders."
+        },
+        {
+          "q": "Can I test Genjutsu AI for free?",
+          "a": "Yes. Genjutsu AI Generator offers complimentary test creation credits directly in the Hero studio, allowing you to animate your first character without upfront payment."
+        }
+      ]
+    },
+    "how-to-use-genjutsu-ai": {
+      "slug": "how-to-use-genjutsu-ai",
+      "aliases": [
+        "how-to-use"
+      ],
+      "navLabel": "Cómo Usar Genjutsu AI",
+      "metaTitle": "Cómo Usar Genjutsu AI: Prompts, Videos de Referencia y Baile Viral",
+      "metaDescription": "Learn how to use Genjutsu AI to animate any character. Complete tutorial on prompt crafting, motion reference selection, and TikTok viral exporting.",
+      "h1": "Cómo Usar Genjutsu AI: Prompts, Videos de Referencia y Baile Viral",
+      "intro": "Master the complete workflow of Genjutsu AI: from selecting your source character photo to choosing viral choreography and downloading 9:16 HD MP4 exports.",
+      "quickAnswer": "To use Genjutsu AI: 1) Upload a clear portrait or select a sample character preset; 2) Pick a dance or combat choreography routine from the library or upload your own 5–30s reference video; 3) Click 'Animate Character' to generate your 9:16 HD video in ~2 minutes.",
+      "sections": [
+        {
+          "heading": "Step 1: Selecting the Ideal Character Image",
+          "body": "Your source image serves as the identity anchor. For best results, use an evenly lit photo with neutral contrast where the character's facial features, hands, and outfit are clearly distinguishable. Front-facing or three-quarter poses from head to waist (or full body) yield the cleanest motion continuity."
+        },
+        {
+          "heading": "Step 2: Choosing Reference Choreography",
+          "body": "The motion reference dictates the timing, footwork, and energy of the synthesized video. Select from our built-in viral choreography library (Hip-Hop Groove, K-Pop Viral Chorus) or upload your own clean reference video. Avoid source videos with extreme camera shake or multiple overlapping dancers."
+        },
+        {
+          "heading": "Step 3: Genjutsu AI Prompt Formulas for Video-to-Video",
+          "body": "When guiding motion transfer models, prompt specificity matters. A proven prompt template structure is: [Subject Description] + [Dance Style & Tempo] + [Lighting & Environment] + [Camera Lens Details]. Combining clear reference imagery with targeted motion prompts produces maximum consistency."
+        },
+        {
+          "heading": "Step 4: Exporting for TikTok, Reels, and YouTube Shorts",
+          "body": "Genjutsu AI Generator renders directly into vertical 9:16 HD MP4 at 1080x1920 with synchronized audio tracks, eliminating post-production cropping. Download the MP4 file and publish directly to mobile video platforms."
+        }
+      ],
+      "promptTemplates": [
+        {
+          "style": "Viral Street Dance",
+          "prompt": "Full-body dynamic street dance choreography, sharp rhythmic popping and locking, fluid hoodie and sneaker physics, cinematic volumetric lighting, 8k resolution, photorealistic 9:16 portrait.",
+          "tip": "Best paired with Urban Dancer preset and Hip-Hop Groove choreography."
+        },
+        {
+          "style": "Anime Idol K-Pop",
+          "prompt": "Anime protagonist performing energetic K-pop chorus routine, vibrant cel-shaded line art, synchronized hair bounce, stage lighting with pastel glow, authentic Japanese animation aesthetic.",
+          "tip": "Best paired with Anime Hero preset and K-Pop Chorus motion."
+        },
+        {
+          "style": "Cyber Ninja Martial Arts",
+          "prompt": "Armored cybernetic warrior executing rapid martial arts transitions, glowing neon accents, reflective carbon fiber armor plates, smooth mechanical joint articulation, dark sci-fi background.",
+          "tip": "Best paired with Cyber Ninja preset for zero armor distortion."
+        }
+      ]
+    },
+    "best-genjutsu-ai-generators": {
+      "slug": "best-genjutsu-ai-generators",
+      "aliases": [
+        "best"
+      ],
+      "navLabel": "Mejores Herramientas Genjutsu",
+      "metaTitle": "Los 5 Mejores Generadores Genjutsu AI en 2026 (Comparativa)",
+      "metaDescription": "Compare the best Genjutsu AI tools and Higgsfield alternatives for motion transfer, dance animation, and character swaps. Ranked by speed, accuracy, and price.",
+      "h1": "Los 5 Mejores Generadores Genjutsu AI en 2026 (Comparativa)",
+      "intro": "We tested and ranked the top Genjutsu AI tools and motion transfer alternatives on identity locking, render speed, ease of use, and pricing transparency.",
+      "quickAnswer": "The best Genjutsu AI generator for social media creators is Genjutsu AI Generator (genjutsuaigenerator.com) due to its instant browser studio, one-click preset library, and Credit Protection Guarantee. For enterprise VFX studios with advanced node pipelines, Higgsfield AI Genjutsu remains the leading pro-grade platform.",
+      "comparisonTable": {
+        "headers": [
+          "Platform",
+          "Best For",
+          "Setup Needed",
+          "Identity Locking",
+          "Render Time"
+        ],
+        "rows": [
+          [
+            "Genjutsu AI Generator",
+            "Creators & TikTok",
+            "Zero (Browser Studio)",
+            "100% Full-Body Lock",
+            "~2 mins"
+          ],
+          [
+            "Higgsfield AI Genjutsu",
+            "Enterprise VFX",
+            "Node-based workflow",
+            "High Consistency",
+            "3–8 mins"
+          ],
+          [
+            "Viggle AI",
+            "Quick Meme Swaps",
+            "Discord / Web",
+            "Medium (Face mask)",
+            "2–4 mins"
+          ],
+          [
+            "Kling AI Motion",
+            "Cinematic Sequences",
+            "Web Portal",
+            "High Physics",
+            "5–10 mins"
+          ],
+          [
+            "Seedance 2.5 (Local)",
+            "GPU Power Users",
+            "ComfyUI / Python",
+            "Configurable",
+            "Hardware-dependent"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "1. Genjutsu AI Generator (Top Pick for Creators)",
+          "body": "Genjutsu AI Generator (genjutsuaigenerator.com) delivers the fastest path from a single portrait to a viral 9:16 dance video. With an interactive Hero creation widget, pre-tested choreographies, multi-language localization, and an automatic Credit Protection Guarantee, it removes all technical friction for digital creators."
+        },
+        {
+          "heading": "2. Higgsfield AI Genjutsu",
+          "body": "Higgsfield AI created the foundational Genjutsu reality manipulation model. It excels at complex multi-layered video-to-video editing, camera trajectory tracking, and enterprise-grade visual effects, though it requires greater technical proficiency."
+        },
+        {
+          "heading": "3. Viggle AI",
+          "body": "Popularized on Discord, Viggle allows users to paste characters onto existing dance clips with green-screen backgrounds. While fun for social memes, identity fidelity and clothing details frequently distort during complex spins."
+        },
+        {
+          "heading": "4. Kling AI Motion Transfer",
+          "body": "Kling's motion synthesis module delivers impressive physical realism and natural body weight distribution. However, rendering times can be lengthy during peak queue hours."
+        },
+        {
+          "heading": "How to Choose the Right Tool for Your Workflow",
+          "body": "If you need rapid turnarounds for TikTok, Instagram Reels, and YouTube Shorts without technical software or subscriptions, Genjutsu AI Generator is the most efficient choice. For cinema-grade multi-shot composition, explore node-based platforms."
+        }
+      ]
+    },
+    "free-genjutsu-ai": {
+      "slug": "free-genjutsu-ai",
+      "aliases": [
+        "free"
+      ],
+      "navLabel": "Genjutsu AI Gratis",
+      "metaTitle": "Generador Genjutsu AI Gratis: Anima Personajes Online",
+      "metaDescription": "Try Genjutsu AI for free with no credit card required. Generate 9:16 HD viral dance and motion transfer videos directly in your web browser.",
+      "h1": "Generador Genjutsu AI Gratis: Anima Personajes Online",
+      "intro": "Get started with AI motion transfer for free: explore our preset library, test custom photo uploads, and generate your first viral video without subscription traps.",
+      "quickAnswer": "You can use Genjutsu AI Generator for free by claiming welcome creation credits directly in the web studio. No credit card is required, and your credits are protected by our Credit Protection Guarantee if a render encounters any technical interruption.",
+      "sections": [
+        {
+          "heading": "What is Included with Free Genjutsu AI?",
+          "body": "Unlike restrictive tools that lock you behind paywalls or enforce watermarked low-resolution exports, Genjutsu AI Generator provides full access to our motion transfer engine. You receive complimentary creation credits to test character photos, preview choreography alignments, and download full 9:16 HD MP4 exports."
+        },
+        {
+          "heading": "Zero Credit Card Required",
+          "body": "You do not need to enter payment credentials to experience AI motion transfer. Open the studio, choose a sample character or upload your own image, select a motion routine, and render immediately."
+        },
+        {
+          "heading": "Our Credit Protection Guarantee",
+          "body": "We believe creators should only pay for successful results. If any generation fails due to network interruptions or AI rendering errors, your spent credit is automatically restored to your account ledger immediately."
+        }
+      ]
+    },
+    "higgsfield-ai-genjutsu-alternative": {
+      "slug": "higgsfield-ai-genjutsu-alternative",
+      "aliases": [
+        "higgsfield-alternative"
+      ],
+      "navLabel": "Alternativa a Higgsfield",
+      "metaTitle": "Alternativa a Higgsfield AI Genjutsu: Estudio Web Instantáneo",
+      "metaDescription": "Looking for a Higgsfield AI Genjutsu alternative? Discover how Genjutsu AI Generator offers browser-based 1-click motion transfer without complex workflows.",
+      "h1": "Alternativa a Higgsfield AI Genjutsu: Estudio Web Instantáneo",
+      "intro": "While Higgsfield AI pioneered the Genjutsu reality manipulation model for professional pipelines, everyday creators need a faster, browser-native solution for viral social videos.",
+      "quickAnswer": "Genjutsu AI Generator is the top browser-based alternative to Higgsfield AI Genjutsu. It eliminates complex node setups and waiting lists, allowing creators to upload one photo, pick a viral dance routine, and generate 9:16 HD MP4s in minutes.",
+      "sections": [
+        {
+          "heading": "Understanding the Higgsfield Genjutsu Paradigm",
+          "body": "Higgsfield's Genjutsu model introduced high-fidelity video-to-video manipulation, enabling creators to transform live footage into stylized scenes. However, its studio-focused workflow can be overly intricate for social content creators who simply want to animate a portrait with viral choreography."
+        },
+        {
+          "heading": "Why Creators Prefer Genjutsu AI Generator as an Alternative",
+          "body": "1) Immediate Browser Studio: No waitlists or complex installation; 2) Pre-Trained Choreography Library: One click to apply Hip-Hop, K-Pop, or combat motion; 3) Transparent Credit System: Pay only for what you render with full Credit Protection; 4) Native 9:16 Social Video Output."
+        },
+        {
+          "heading": "Prompt Compatibility & Migration",
+          "body": "Any character description or prompt concept designed for Higgsfield Genjutsu translates seamlessly into Genjutsu AI Generator. The model accurately interprets identity tokens, stylistic directives, and lighting parameters."
+        }
+      ]
     }
   },
   "ui": {

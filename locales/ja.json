@@ -461,6 +461,212 @@
           "body": "高度なモーションキャプチャ機材や高額なCGスタジオがなくても、ブラウザ1つで誰でもキャラクターに命を吹き込める環境を提供します。"
         }
       ]
+    },
+    "what-is-genjutsu-ai": {
+      "slug": "what-is-genjutsu-ai",
+      "aliases": [
+        "what-is"
+      ],
+      "navLabel": "幻術AIとは",
+      "metaTitle": "幻術AI（Genjutsu AI）とは？動画モーション転送モデルの仕組みを徹底解説",
+      "metaDescription": "幻術AI（Genjutsu AI）とは何か？HiggsfieldのGenjutsuモデルの仕組み、静止画からダンス動画を生成する最新技術を分かりやすく解説します。",
+      "h1": "幻術AI（Genjutsu AI）とは？次世代動画モーション転送の仕組み",
+      "intro": "幻術AIは、動画生成AIにおける画期的な進化です。プロンプトによる偶然の生成ではなく、参照動画の正確なダンスや動作を静止画キャラクターに完全転送します。",
+      "quickAnswer": "幻術AIとは、元動画から全身の骨格動作・手先・カメラワークを抽出し、1枚の静止画キャラクターに転送合成する深層学習技術です。Higgsfield AIのGenjutsuモデル等で注目され、顔や衣装の崩れなしに9:16縦型ダンス動画を数分で作成できます。",
+      "sections": [
+        {
+          "heading": "AI分野における「幻術（Genjutsu）」の由来と意味",
+          "body": "「幻術（Genjutsu）」とは本来、相手の知覚や現実を操る技を指します。2026年、米Higgsfield AIをはじめとする研究機関が「現実の映像を意のままに改変・置換する」新世代動画モデルにこの名を冠しました。ゼロからランダム生成するのではなく、既存の映像の動きを維持したまま被写体だけを自由自在に変幻させる技術です。"
+        },
+        {
+          "heading": "幻術AIのモーション合成アーキテクチャ",
+          "body": "従来のText-to-Videoでは、フレームごとに顔が崩れる「ジッター問題」が課題でした。幻術AIは、3D骨格キーポイント抽出とキャラクター固有性保持（Identity Lock）を組み合わせ、髪型・表情・衣装の質感を固定したまま自然な布の揺れやダンスリズムを生成します。"
+        },
+        {
+          "heading": "従来のフェイススワップ（顔交換）との決定的な違い",
+          "body": "従来のフェイススワップは「他人の体に顔のマスクを貼り付ける」だけでした。幻術AIは頭からつま先までキャラクター全体を再構築し、体型や靴、アートスタイル（2Dアニメや3D質感）を忠実に再現します。"
+        },
+        {
+          "heading": "TikTokやSNSで幻術AI動画が急増している理由",
+          "body": "TikTokやInstagram Reelsでは、意外性のあるキャラクターが高精度に踊る動画が高い視聴維持率を記録します。歴史上の人物やアニメキャラを最新K-Popやヒップホップで踊らせる動画がバイラル化しています。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Genjutsu AI GeneratorとHiggsfield Genjutsuの違いは何ですか？",
+          "a": "Higgsfield AIは高度なVFXスタジオ向けモデルです。当サイト（genjutsuaigenerator.com）は、SNSクリエイター向けにブラウザ上で1クリックで即座に9:16縦型ダンス動画が作れる使いやすいスタジオを提供しています。"
+        },
+        {
+          "q": "アニメやイラストでも動作しますか？",
+          "a": "はい。セル画調の輪郭線や3Dの光沢質感を保ったまま、破綻なくモーション転送が可能です。"
+        },
+        {
+          "q": "無料で試すことはできますか？",
+          "a": "はい。初回お試しクレジットが付与され、クレジットカード登録不要でブラウザ上ですぐに生成テストが可能です。"
+        }
+      ]
+    },
+    "how-to-use-genjutsu-ai": {
+      "slug": "how-to-use-genjutsu-ai",
+      "aliases": [
+        "how-to-use"
+      ],
+      "navLabel": "幻術AIの使い方",
+      "metaTitle": "幻術AIの使い方完全ガイド：プロンプト・参照動画・ダンス作成",
+      "metaDescription": "幻術AI（Genjutsu AI）を使って静止画を踊らせる全手順。キャラクター画像の選び方、プロンプトの書き方、TikTok用9:16動画の書き出しまで解説。",
+      "h1": "幻術AIの使い方：写真からダンス動画を作る全ステップ",
+      "intro": "1枚のキャラクター写真から、流行のダンスやアクション動画を生成して縦型HD動画として保存するまでの全ワークフローを解説します。",
+      "quickAnswer": "使い方：1) 鮮明なキャラクター写真をアップロードまたはサンプル選択；2) ライブラリからダンス動作を選ぶか元動画をアップロード；3) 「キャラクターを動かす」をクリックすると約2分で9:16縦型動画が完成します。",
+      "sections": [
+        {
+          "heading": "ステップ1：最適なキャラクター写真の選び方",
+          "body": "頭部から腰まで（または全身）が明瞭に写っており、顔のパーツや衣装がはっきり認識できる明るい写真を選びます。正面または斜め前を向いたポーズが最も安定した結果を生み出します。"
+        },
+        {
+          "heading": "ステップ2：参照モーション（ダンス動作）の選択",
+          "body": "内蔵のヒップホップやK-Pop振り付けから選ぶか、ご自身で撮影した5〜30秒の動画をアップロードします。カメラのブレが少なく、被写体の手足がはっきりと視認できる動画が推奨されます。"
+        },
+        {
+          "heading": "ステップ3：効果的なプロンプトの構成方法",
+          "body": "「被写体の特徴 ＋ ダンススタイル・テンポ ＋ ライティング・背景」の順序で指定することで、AIの生成精度を最大化できます。"
+        },
+        {
+          "heading": "ステップ4：TikTokやリール向けの書き出しと投稿",
+          "body": "生成された動画は音楽と同期した1080×1920（9:16）の高画質MP4で出力されます。追加のトリミング編集なしでそのまま投稿可能です。"
+        }
+      ],
+      "promptTemplates": [
+        {
+          "style": "ストリートダンス",
+          "prompt": "Full-body dynamic street dance choreography, sharp rhythmic popping and locking, cinematic volumetric lighting, 8k resolution, 9:16 portrait.",
+          "tip": "ストリートダンサーのプリセットとヒップホップ動作の組み合わせに最適です。"
+        },
+        {
+          "style": "アニメアイドル K-Pop",
+          "prompt": "Anime protagonist performing energetic K-pop chorus routine, vibrant cel-shaded line art, stage lighting, authentic Japanese animation aesthetic.",
+          "tip": "アニメヒーローのプリセットとK-Pop振り付けに最適です。"
+        }
+      ]
+    },
+    "best-genjutsu-ai-generators": {
+      "slug": "best-genjutsu-ai-generators",
+      "aliases": [
+        "best"
+      ],
+      "navLabel": "おすすめ幻術AIツール",
+      "metaTitle": "2026年おすすめ幻術AI動画ジェネレーター5選【徹底比較】",
+      "metaDescription": "人気の幻術AI・モーション転送動画生成ツールを比較。Genjutsu AI Generator、Higgsfield、Viggleなどの速度・画質・料金を徹底レビュー。",
+      "h1": "2026年おすすめ幻術AI動画生成ツール5選：特徴と料金比較",
+      "intro": "キャラクターの崩れにくさ、レンダリング速度、操作の簡単さ、料金の透明性をもとに、主要な幻術AIモーション転送ツールを検証・比較しました。",
+      "quickAnswer": "SNSクリエイターに最もおすすめなのは「Genjutsu AI Generator」です。ブラウザ完結型で操作が簡単、失敗時の算力返還保証が付いています。映画級の高度なVFX制作にはHiggsfield AIが適しています。",
+      "comparisonTable": {
+        "headers": [
+          "ツール名",
+          "主な用途",
+          "導入の難易度",
+          "顔・衣装の保持力",
+          "生成速度"
+        ],
+        "rows": [
+          [
+            "Genjutsu AI Generator",
+            "SNSクリエイター・TikTok",
+            "不要（ブラウザ即利用）",
+            "100%全身固定",
+            "約2分"
+          ],
+          [
+            "Higgsfield AI Genjutsu",
+            "プロVFX・映像制作",
+            "ノード構築等の知識",
+            "高い一貫性",
+            "3〜8分"
+          ],
+          [
+            "Viggle AI",
+            "ミーム動画・コラージュ",
+            "Discord / Web",
+            "中程度（顔貼り付け）",
+            "2〜4分"
+          ],
+          [
+            "Kling AI モーション",
+            "映画的シーン合成",
+            "Webポータル",
+            "高物理演算",
+            "5〜10分"
+          ],
+          [
+            "Seedance 2.5",
+            "GPUパワーユーザー",
+            "Python / ComfyUI",
+            "環境依存",
+            "PCスペック依存"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "1. Genjutsu AI Generator（最もおすすめ）",
+          "body": "静止画から縦型ダンス動画を作る最速のブラウザスタジオです。ワンクリックで試せるプリセット、完全日本語対応、失敗時にクレジットが自動返還される安心保証が特徴です。"
+        },
+        {
+          "heading": "2. Higgsfield AI Genjutsu",
+          "body": "幻術モデルのパイオニアであり、動画から動画への精緻なVFX合成に強みを持ちます。本格的な映像スタジオに向いています。"
+        },
+        {
+          "heading": "3. Viggle AI",
+          "body": "グリーンバックを使った簡易ダンス合成で知られますが、回転時などに顔や服のディテールが崩れやすい傾向があります。"
+        }
+      ]
+    },
+    "free-genjutsu-ai": {
+      "slug": "free-genjutsu-ai",
+      "aliases": [
+        "free"
+      ],
+      "navLabel": "無料の幻術AI",
+      "metaTitle": "無料で使える幻術AI動画ジェネレーター：登録不要で簡単作成",
+      "metaDescription": "クレジットカード不要で無料体験できる幻術AI。ブラウザ上で今すぐ写真を動かして9:16縦型ダンス動画を作成できます。",
+      "h1": "無料の幻術AIジェネレーター：課金なしで動画作成を体験",
+      "intro": "高額なサブスクリプションに縛られることなく、まずは無料でAIモーション転送の驚きのクオリティを体感してください。",
+      "quickAnswer": "Genjutsu AI Generatorでは初回無料の作成クレジットを提供しており、クレジットカード不要ですぐにスタジオで生成をテストできます。エラー発生時もクレジット返還保証で安心です。",
+      "sections": [
+        {
+          "heading": "無料枠で何ができるか？",
+          "body": "透かし（ウォーターマーク）で画面が見えなくなったり低解像度に制限されたりすることなく、1080×1920のフルHD動画の生成とダウンロードを体験できます。"
+        },
+        {
+          "heading": "クレジットカード登録は不要",
+          "body": "自動更新の罠はありません。まずはスタジオでお手持ちの写真をアップロードし、動作を確認してください。"
+        },
+        {
+          "heading": "算力返還保護（Credit Protection）",
+          "body": "万が一モデルのエラーや通信障害で生成が完了しなかった場合、消費されたクレジットは即座に残高に自動返還されます。"
+        }
+      ]
+    },
+    "higgsfield-ai-genjutsu-alternative": {
+      "slug": "higgsfield-ai-genjutsu-alternative",
+      "aliases": [
+        "higgsfield-alternative"
+      ],
+      "navLabel": "Higgsfield代替ツール",
+      "metaTitle": "Higgsfield AI Genjutsuの代替ツール：ブラウザで即座に動く生成スタジオ",
+      "metaDescription": "Higgsfield AIのGenjutsuモデルの代替ツールをお探しですか？待ち時間なし、ブラウザ完結で使えるGenjutsu AI Generatorの特徴を解説。",
+      "h1": "Higgsfield AI Genjutsuの代替ツール：手軽なブラウザ完結スタジオ",
+      "intro": "Higgsfield AIは素晴らしいモデルですが、SNS投稿用の動画を手早く作りたいクリエイターには、よりシンプルで高速なツールが求められています。",
+      "quickAnswer": "Genjutsu AI Generatorは、Higgsfield Genjutsuの最も身近なWeb代替サービスです。複雑なノード設定なしで、写真を1枚アップロードしてダンスを選ぶだけで数分で完成します。",
+      "sections": [
+        {
+          "heading": "Higgsfield Genjutsuのメリットと課題",
+          "body": "映画品質のVideo-to-Video変換ができる一方、操作系が専門的で、手軽に1本のショート動画を作りたいユーザーには敷居が高い面があります。"
+        },
+        {
+          "heading": "Genjutsu AI Generatorが選ばれる理由",
+          "body": "1) インストール不要のWeb完結；2) 厳選されたトレンドダンスライブラリ；3) 明朗な単発クレジット課金と返還保証；4) TikTokに最適な9:16縦型出力。"
+        }
+      ]
     }
   },
   "ui": {

@@ -65,7 +65,7 @@ for (const locale of supportedLocales) {
     } else if (page.type === 'pricing') {
       html = renderPricingPage(locale);
     } else if (page.type === 'article') {
-      html = renderArticlePage(locale, page.slug);
+      html = renderArticlePage(locale, page.articleKey || page.slug, page.slug);
     }
 
     if (!html) {
@@ -88,12 +88,14 @@ for (const locale of supportedLocales) {
     fs.writeFileSync(targetFile, html, 'utf-8');
     totalPagesRendered++;
 
-    // Track for sitemap
-    sitemapUrls.push({
-      loc: `${siteConfig.origin}${relUrl}`,
-      slug: page.slug,
-      locale
-    });
+    // Track for sitemap (exclude aliases so only canonical URLs are submitted to search engines)
+    if (!page.isAlias) {
+      sitemapUrls.push({
+        loc: `${siteConfig.origin}${relUrl}`,
+        slug: page.slug,
+        locale
+      });
+    }
   }
 }
 
