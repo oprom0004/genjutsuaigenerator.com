@@ -1,0 +1,522 @@
+{
+  "locale": "es",
+  "name": "Español",
+  "flag": "🇪🇸",
+  "dir": "ltr",
+  "meta": {
+    "siteName": "Genjutsu AI",
+    "siteOrigin": "https://genjutsuaigenerator.com",
+    "tagline": "Generador de Animación y Transferencia de Movimiento con IA",
+    "homeTitle": "Genjutsu AI Generator — Anima Cualquier Foto con Danza y Movimiento IA",
+    "homeDescription": "Transforma fotos fijas en videos fluidos con IA. Sube una foto de retrato, elige una coreografía o baile viral, y genera un video vertical 9:16 en minutos."
+  },
+  "nav": {
+    "generator": "Estudio",
+    "showcase": "Ejemplos",
+    "features": "Modos",
+    "howItWorks": "Cómo Funciona",
+    "comparison": "Comparativa",
+    "pricing": "Precios",
+    "faq": "Preguntas Frecuentes",
+    "myAccount": "Mi Cuenta",
+    "myVideos": "Mis Videos",
+    "signIn": "Iniciar Sesión",
+    "signOut": "Cerrar Sesión",
+    "create": "Animar Foto",
+    "credits": "créditos"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "TRANSFERENCIA DE MOVIMIENTO Y ANIMACIÓN DE PERSONAJES",
+      "h1": "Da Vida a Cualquier Personaje con Transferencia de Movimiento IA",
+      "lead": "Convierte retratos estáticos en videos dinámicos con identidad intacta. Anima tus fotos con bailes virales de TikTok, peleas de artes marciales o transformaciones anime, sin croma ni edición compleja.",
+      "stats": [
+        {
+          "val": "1 Foto",
+          "label": "CUALQUIER PERSONAJE"
+        },
+        {
+          "val": "9:16 HD",
+          "label": "TIKTOK & REELS"
+        },
+        {
+          "val": "100%",
+          "label": "IDENTIDAD BLOQUEADA"
+        }
+      ]
+    },
+    "heroGenerator": {
+      "badge": "ESTUDIO DE CREACIÓN HERO",
+      "step1Title": "1. Elige Foto del Personaje",
+      "step1Hint": "JPG o PNG nítido · Rostro, pelo y vestuario protegidos",
+      "dropHint": "Arrastra y suelta tu foto, o explora desde tu dispositivo",
+      "presetLabel": "O prueba un personaje de muestra en 1 clic:",
+      "presets": [
+        {
+          "id": "char-street",
+          "name": "Bailarina Urbana",
+          "role": "Retrato Realista",
+          "img": "/media/char-street.webp"
+        },
+        {
+          "id": "char-ninja",
+          "name": "Ninja Cibernético",
+          "role": "3D Blindado",
+          "img": "/media/char-ninja.webp"
+        },
+        {
+          "id": "char-anime",
+          "name": "Héroe Anime",
+          "role": "Estilo Cel-Shaded",
+          "img": "/media/char-anime.webp"
+        },
+        {
+          "id": "char-suit",
+          "name": "Caballero",
+          "role": "Traje Clásico",
+          "img": "/media/char-suit.webp"
+        }
+      ],
+      "step2Title": "2. Elige Movimiento o Coreografía",
+      "step2Hint": "Selecciona de la biblioteca o sube un video de referencia",
+      "moves": [
+        {
+          "id": "src-hiphop",
+          "name": "Hip-Hop Groove",
+          "tag": "DANZA URBANA",
+          "duration": "10s",
+          "video": "/media/src-hiphop.mp4",
+          "thumb": "/media/src-hiphop.webp"
+        },
+        {
+          "id": "src-kpop",
+          "name": "Coro K-Pop",
+          "tag": "RUTINA VIRAL",
+          "duration": "10s",
+          "video": "/media/src-kpop.mp4",
+          "thumb": "/media/src-kpop.webp"
+        }
+      ],
+      "btnGenerate": "Animar Personaje (1 Crédito)",
+      "specs": "Tiempo de render ~2 mins · MP4 Vertical 9:16 · Crédito protegido si falla",
+      "readyTitle": "¡Tu Video Animado está Listo!",
+      "readyBadge": "RENDER COMPLETADO",
+      "btnDownload": "Descargar MP4",
+      "btnShare": "Compartir Video",
+      "btnCopyCaption": "Copiar Subtítulo",
+      "btnReset": "Animar Otro Personaje",
+      "captionDefault": "¡Le di vida a este personaje usando Genjutsu AI! 🕺✨ #genjutsuai #aimotiontransfer #danceai #viral"
+    },
+    "showcase": {
+      "eyebrow": "GALERÍA INTERACTIVA",
+      "title": "Mira Cómo Cobran Vida las Fotos",
+      "intro": "Cada video comenzó con una sola imagen. Haz clic en los botones de alternancia en cada tarjeta para comparar el movimiento original con el video final.",
+      "btnToggleSrc": "Foto y Movimiento Origen",
+      "btnToggleOut": "Resultado Genjutsu",
+      "items": [
+        {
+          "id": "out-street-hiphop",
+          "title": "Bailarina Urbana × Hip-hop groove",
+          "tag": "DANZA URBANA REALISTA",
+          "desc": "Retrato individual impulsado por pasos de hip-hop. Rostro, peinado y zapatillas permanecen consistentes fotograma a fotograma.",
+          "video": "/media/out-street-hiphop.mp4",
+          "poster": "/media/out-street-hiphop.webp",
+          "srcVideo": "/media/src-hiphop.mp4",
+          "charImg": "/media/char-street.webp"
+        },
+        {
+          "id": "out-ninja-kpop",
+          "title": "Ninja Cibernético × K-pop flow",
+          "tag": "COREOGRAFÍA 3D BLINDADA",
+          "desc": "Un guerrero cyborg modelado en 3D ejecuta movimientos fluidos y giros de hombros sin deformar las placas rígidas de la armadura.",
+          "video": "/media/out-ninja-kpop.mp4",
+          "poster": "/media/out-ninja-kpop.webp",
+          "srcVideo": "/media/src-kpop.mp4",
+          "charImg": "/media/char-ninja.webp"
+        },
+        {
+          "id": "out-anime-kpop",
+          "title": "Héroe Anime × K-pop flow",
+          "tag": "ESTILO CEL-SHADED PRESERVADO",
+          "desc": "Entra ilustración, sale animación cel-shaded. El trazo y el sombreado conservan el ritmo y la esencia auténtica del anime 2D.",
+          "video": "/media/out-anime-kpop.mp4",
+          "poster": "/media/out-anime-kpop.webp",
+          "srcVideo": "/media/src-kpop.mp4",
+          "charImg": "/media/char-anime.webp"
+        },
+        {
+          "id": "out-suit-hiphop",
+          "title": "Traje Clásico × Hip-hop groove",
+          "tag": "DANZA ELEGANTE DE CONTRASTE",
+          "desc": "La silueta formal y el porte distinguido se mantienen impecables a través de rápidos giros y rebotes de ritmo.",
+          "video": "/media/out-suit-hiphop.mp4",
+          "poster": "/media/out-suit-hiphop.webp",
+          "srcVideo": "/media/src-hiphop.mp4",
+          "charImg": "/media/char-suit.webp"
+        }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "TRES MODOS DE CREACIÓN",
+      "title": "Mucho Más Que Bailes: Animación Completa de Personajes",
+      "items": [
+        {
+          "title": "Transferencia de Movimiento IA y Danza Viral",
+          "desc": "Extrae la pose corporal completa, pasos y ritmo de cualquier video y haz que tu personaje los interprete con física natural."
+        },
+        {
+          "title": "Transformación Anime y Efectos Genjutsu",
+          "desc": "Combina estética cel-shaded, transiciones dramáticas de mirada/ojos y distorsión de fondo sin necesidad de rotoscopía."
+        },
+        {
+          "title": "Reemplazo Cinematográfico de Personajes",
+          "desc": "Coloca a cualquier personaje en escenas míticas de películas o anuncios conservando la iluminación y el movimiento de cámara."
+        }
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "PROCESO EN 3 PASOS",
+      "title": "De Foto a Video en Minutos",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Sube Foto del Personaje",
+          "desc": "Elige cualquier foto de cuerpo entero o medio cuerpo. Personas reales, avatares 3D o arte anime."
+        },
+        {
+          "num": "02",
+          "title": "Selecciona Movimiento",
+          "desc": "Elige una coreografía de nuestra biblioteca o sube tu propio video de referencia de 5 a 30 segundos."
+        },
+        {
+          "num": "03",
+          "title": "Descarga Video 9:16",
+          "desc": "Recibe un MP4 en alta definición con identidad protegida listo para TikTok, Instagram Reels y YouTube Shorts."
+        }
+      ]
+    },
+    "comparison": {
+      "eyebrow": "POR QUÉ GENJUTSU AI",
+      "title": "Síntesis de Movimiento de Nueva Generación frente a Herramientas Antiguas",
+      "headers": [
+        "Función / Característica",
+        "Genjutsu AI Generator",
+        "Face Swap Genérico",
+        "VFX Tradicional",
+        "Text-to-Video Estándar"
+      ],
+      "rows": [
+        [
+          "Transferencia de Movimiento Completo",
+          "Sí (De pies a cabeza)",
+          "Solo Cara (Cuerpo sin cambios)",
+          "Captura MoCap manual / 3D",
+          "Movimiento aleatorio sin control"
+        ],
+        [
+          "Fijación de Identidad (Identity Lock)",
+          "100% Rostro, Cabello y Ropa fijos",
+          "Se deforma en ángulos extremos",
+          "Escaneos 3D de alto presupuesto",
+          "La cara cambia en cada toma"
+        ],
+        [
+          "Preservación de Estilo (Anime y 3D)",
+          "Mantiene cel-shading y textura 3D",
+          "Falla en ilustraciones (piel borrosa)",
+          "Retexturizado manual",
+          "Estilo artístico inconsistente"
+        ],
+        [
+          "Velocidad de Creación",
+          "2–3 Minutos en Navegador",
+          "1–2 Minutos",
+          "2–4 Semanas de postproducción",
+          "3–5 Minutos"
+        ],
+        [
+          "Habilidades y Equipos Necesarios",
+          "Cero (Sube Foto + Elige Movimiento)",
+          "Bajo",
+          "Equipo de artistas VFX + Croma",
+          "Prompts complejos e impredecibles"
+        ]
+      ]
+    },
+    "pricing": {
+      "eyebrow": "CRÉDITOS DE CREACIÓN TRANSPARENTES",
+      "title": "Precios Claros y Honestos",
+      "intro": "1 crédito de video crea un video animado completo. Sin tarifas ocultas ni suscripciones forzosas.",
+      "packs": [
+        {
+          "name": "Paquete 1 Video",
+          "price": "$9.99",
+          "unit": "$9.99/video",
+          "desc": "1 crédito · Sin caducidad",
+          "popular": false
+        },
+        {
+          "name": "Paquete 3 Videos",
+          "price": "$17.99",
+          "unit": "$5.99/video",
+          "desc": "3 créditos · Solo $5.99/video · Popular",
+          "popular": true
+        },
+        {
+          "name": "Paquete 10 Videos",
+          "price": "$49.99",
+          "unit": "$4.99/video",
+          "desc": "10 créditos · Solo $4.99/video · Mejor Valor",
+          "popular": false
+        }
+      ],
+      "subscription": {
+        "name": "Pase Mensual Creador",
+        "price": "$14.99 / mes",
+        "desc": "3 créditos cada mes · Cancela cuando quieras"
+      },
+      "cta": "Obtener Créditos",
+      "guaranteeTitle": "Garantía de Protección de Crédito",
+      "guaranteeDesc": "Si una generación falla por un error técnico del servidor, tu crédito consumido se devuelve inmediatamente a tu saldo. Cero riesgo."
+    },
+    "faq": {
+      "eyebrow": "PREGUNTAS FRECUENTES",
+      "title": "Todo Lo Que Necesitas Saber",
+      "items": [
+        {
+          "q": "¿Qué es la transferencia de movimiento IA y cómo funciona Genjutsu AI?",
+          "a": "La transferencia de movimiento IA extrae la pose, gestos y ritmo de un video de referencia y los aplica a una foto fija. Genjutsu AI calcula la geometría facial y corporal en cada cuadro para sintetizar un video fluido donde el personaje baila con su rostro, ropa y estilo artístico 100% intactos."
+        },
+        {
+          "q": "¿En qué se diferencia Genjutsu AI de las aplicaciones de Face Swap?",
+          "a": "El Face Swap tradicional solo recorta y pega la cara en un video preexistente, dejando el cuerpo y la ropa del actor original. Genjutsu AI realiza animación de cuerpo entero: genera un video completamente nuevo de tu personaje respetando su silueta y vestimenta auténticas."
+        },
+        {
+          "q": "¿Funciona con anime, avatares 3D e ilustraciones artísticas?",
+          "a": "¡Sí! Genjutsu AI preserva el estilo. Las fotos reales se mantienen fotorrealistas, los modelos 3D conservan sus brillos y texturas, y las ilustraciones de anime conservan sus trazos cel-shaded sin parecer un filtro extraño."
+        },
+        {
+          "q": "¿Qué fotos dan mejores resultados?",
+          "a": "Una foto nítida y bien iluminada que muestre al personaje de cabeza a cintura (o cuerpo entero). Tanto fotos humanas como creaciones digitales funcionan a la perfección."
+        },
+        {
+          "q": "¿Puedo subir mis propios videos de baile o entrenamiento?",
+          "a": "Sí. Además de nuestra biblioteca de movimientos virales, puedes subir cualquier video MP4 o MOV de entre 5 y 30 segundos como referencia de coreografía personalizada."
+        },
+        {
+          "q": "¿Qué formato y resolución de salida obtengo?",
+          "a": "Todos los videos completados se entregan como archivos MP4 verticales en proporción 9:16 a resolución HD 1080x1920 con audio sincronizado, listos para publicar en TikTok, Instagram Reels y YouTube Shorts."
+        },
+        {
+          "q": "¿Qué ocurre si la generación de un video falla?",
+          "a": "Nuestra Garantía de Protección de Crédito reembolsa automáticamente el crédito a tu saldo si ocurre algún fallo en el renderizado. Nunca pagas por videos no terminados."
+        },
+        {
+          "q": "¿Poseo los derechos de los videos que genero?",
+          "a": "Sí. Tienes plena propiedad y derechos comerciales para publicar, monetizar y distribuir los videos creados con fotos que te pertenezcan o tengas permiso para usar."
+        }
+      ]
+    }
+  },
+  "generator": {
+    "metaTitle": "Estudio de Transferencia de Movimiento IA — Genjutsu AI",
+    "metaDescription": "Estudio en línea de transferencia de movimiento IA: anima fotos con bailes virales y acción para TikTok.",
+    "h1": "Estudio Genjutsu AI",
+    "subtitle": "Sube la foto de tu personaje, selecciona una coreografía y obtén videos en alta definición en minutos."
+  },
+  "dashboard": {
+    "metaTitle": "Mi Cuenta y Videoteca — Genjutsu AI",
+    "metaDescription": "Accede a tus videos generados, revisa tu saldo de créditos y consulta el historial de pedidos.",
+    "h1": "Mi Cuenta y Videoteca",
+    "lead": "Gestiona tus videos animados, descarga archivos MP4 y consulta tu saldo de créditos.",
+    "balanceLabel": "Saldo Disponible",
+    "creditsUnit": "créditos",
+    "addCredits": "Añadir Créditos",
+    "myVideosTitle": "Mis Videos Generados",
+    "ordersTitle": "Historial de Compras",
+    "emptyVideosTitle": "Aún no has creado videos",
+    "emptyVideosDesc": "Sube una foto en el estudio para animar a tu primer personaje.",
+    "btnCreateFirst": "Crear tu Primer Video →",
+    "emptyOrders": "No se encontraron registros de compra.",
+    "colOrder": "ID Pedido",
+    "colPlan": "Plan / Paquete",
+    "colDate": "Fecha",
+    "colAmount": "Importe",
+    "colStatus": "Estado",
+    "btnDownload": "Descargar MP4",
+    "btnDelete": "Eliminar",
+    "confirmDelete": "¿Deseas eliminar este video de tu cuenta?"
+  },
+  "pricingPage": {
+    "metaTitle": "Precios y Créditos de Creación — Genjutsu AI",
+    "metaDescription": "Precios simples y transparentes para animación con IA. 1 crédito genera 1 video. Protección de crédito incluida.",
+    "h1": "Precios Claros y Transparentes",
+    "intro": "Crea videos virales con transferencia de movimiento sin suscripciones obligatorias ni tarifas ocultas."
+  },
+  "articles": {
+    "how-to-make-ai-motion-transfer-video": {
+      "slug": "how-to-make-ai-motion-transfer-video",
+      "navLabel": "Motion Transfer Guide",
+      "metaTitle": "How to Make an AI Motion Transfer Video: Complete 2026 Guide",
+      "metaDescription": "Step-by-step tutorial on creating AI motion transfer videos from photos. Learn photo selection, motion tracking, identity preservation, and TikTok export.",
+      "h1": "How to Make an AI Motion Transfer Video",
+      "intro": "AI motion transfer has transformed social video production: take any still portrait and make them perform complex choreography with identity locking.",
+      "sections": [
+        {
+          "heading": "What is AI Motion Transfer?",
+          "body": "Motion transfer technology isolates human movement from a source video and maps those dynamics onto an unrelated still photograph. Unlike primitive face swaps that only glue facial features onto someone else's body, motion transfer reconstructs full-body movement, cloth physics, and posture from scratch."
+        },
+        {
+          "heading": "Choosing the Ideal Character Photo",
+          "body": "For best results, use a sharp, evenly lit image where the character's facial features, hands, and outfit are clearly distinguishable. The model preserves artistic style — anime stays cel-shaded, 3D remains rendered, and photos stay photographic."
+        },
+        {
+          "heading": "Exporting for TikTok, Reels, and Shorts",
+          "body": "Native 9:16 vertical orientation ensures maximum engagement on mobile feeds. Genjutsu AI renders directly to vertical MP4 format with audio synchronization, eliminating the need for post-crop editing."
+        }
+      ]
+    },
+    "ai-dance-generator-guide": {
+      "slug": "ai-dance-generator-guide",
+      "navLabel": "AI Dance Guide",
+      "metaTitle": "AI Dance Video Generator: Turn Any Photo into Viral Choreography",
+      "metaDescription": "Learn how creators turn still portraits into viral TikTok dance videos using AI motion transfer and identity preservation.",
+      "h1": "The Complete Guide to AI Dance Video Generation",
+      "intro": "From K-pop chorus routines to hip-hop footwork, AI dance generation allows creators to animate historical figures, anime characters, and personal avatars in minutes.",
+      "sections": [
+        {
+          "heading": "Why AI Dance Videos Go Viral",
+          "body": "Viewers are captivated by the surreal contrast of unexpected characters executing precise, high-energy dance routines. An anime ninja performing K-pop or a Renaissance portrait doing hip-hop generates immense curiosity and watch time."
+        },
+        {
+          "heading": "Key Elements of Identity Locking",
+          "body": "Without identity locking, character faces warp and drift as heads turn. Genjutsu AI maintains facial geometry across 360-degree rotations and rapid spins, ensuring your character remains recognizable throughout the routine."
+        }
+      ]
+    },
+    "character-swap-vs-face-swap": {
+      "slug": "character-swap-vs-face-swap",
+      "navLabel": "Character vs Face Swap",
+      "metaTitle": "Character Swap vs Face Swap: Key Differences in AI Video Generation",
+      "metaDescription": "Understand the differences between video face swaps and full AI character swaps. Discover which technology suits your creative projects.",
+      "h1": "Character Swap vs Face Swap: Technology & Creative Differences",
+      "intro": "While both technologies alter people in video, full character swap and simple face swap operate on entirely different computational principles.",
+      "sections": [
+        {
+          "heading": "How Face Swap Works",
+          "body": "Face swap detects facial landmarks on a performer and pastes a replacement face mask onto the original head. The original actor's body, clothing, proportions, and background remain completely untouched."
+        },
+        {
+          "heading": "How Full Character Swap Works",
+          "body": "Character swap replaces the entire performer — head, torso, clothing, and limbs. The AI synthesizes the character performing the motion while maintaining the surrounding environment, lighting, and camera movement."
+        }
+      ]
+    },
+    "terms": {
+      "slug": "terms",
+      "navLabel": "Terms of Service",
+      "metaTitle": "Terms of Service — Genjutsu AI",
+      "metaDescription": "Terms and conditions for using Genjutsu AI video generation services.",
+      "h1": "Terms of Service",
+      "intro": "Please review the terms and conditions governing your use of Genjutsu AI.",
+      "sections": [
+        {
+          "heading": "Acceptable Use & Permissions",
+          "body": "You must own or hold explicit authorization to use any photos or videos you upload. Generating non-consensual imagery, deepfakes of public officials, or harmful content is strictly prohibited."
+        },
+        {
+          "heading": "Credits & Payments",
+          "body": "Credits are deducted upon generation initiation. In the event of a system or model failure, spent credits are restored automatically to your account balance."
+        }
+      ]
+    },
+    "privacy": {
+      "slug": "privacy",
+      "navLabel": "Privacy Policy",
+      "metaTitle": "Privacy Policy — Genjutsu AI",
+      "metaDescription": "How Genjutsu AI protects your personal photos, videos, and account information.",
+      "h1": "Privacy Policy",
+      "intro": "We are committed to user privacy and secure processing of media files.",
+      "sections": [
+        {
+          "heading": "Media Processing & Retention",
+          "body": "Uploaded photos and videos are stored in encrypted cloud storage solely to render your requested video. Media is automatically expunged after 7 days unless saved to your library."
+        },
+        {
+          "heading": "No Model Training on User Photos",
+          "body": "Your private uploads are never used to train public machine learning foundation models."
+        }
+      ]
+    },
+    "about": {
+      "slug": "about",
+      "navLabel": "About Us",
+      "metaTitle": "About Genjutsu AI — Next-Gen Motion Synthesis",
+      "metaDescription": "Learn about Genjutsu AI, our mission to democratize cinematic video motion synthesis.",
+      "h1": "About Genjutsu AI",
+      "intro": "Genjutsu AI is dedicated to empowering creators with accessible, studio-grade motion transfer.",
+      "sections": [
+        {
+          "heading": "Our Mission",
+          "body": "We believe visual storytelling should not be constrained by complex motion capture hardware, expensive studio spaces, or intensive 3D rigging workflows. Genjutsu AI brings studio-grade character animation directly to web creators worldwide."
+        }
+      ]
+    }
+  },
+  "ui": {
+    "home": "Inicio",
+    "close": "Cerrar",
+    "skip": "Saltar al contenido principal",
+    "signin": "Iniciar sesión",
+    "signup": "Crear cuenta",
+    "welcome": "Bienvenido de nuevo",
+    "google": "Continuar con Google",
+    "orEmail": "o con correo electrónico",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "passwordHint": "Al menos 8 caracteres",
+    "termsConsent": "Acepto los Términos de Servicio y la Política de Privacidad.",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "reset": "Restablecer contraseña",
+    "signedOut": "Sesión cerrada con éxito.",
+    "authRequired": "Inicia sesión para ver tu cuenta.",
+    "processingPayment": "Procesando pago…",
+    "paid": "Pagado",
+    "loading": "Cargando…",
+    "unavailable": "El servicio no está disponible en este momento. Inténtalo de nuevo.",
+    "uploading": "Subiendo foto…",
+    "rendering": "Dirigiendo síntesis de movimiento IA…",
+    "success": "Completado",
+    "failed": "La generación falló. Tu crédito fue devuelto.",
+    "copied": "¡Texto copiado al portapapeles!",
+    "sharePrivate": "Compartir directo no disponible. Usa Descargar MP4.",
+    "delete": "Eliminar",
+    "deleteConfirm": "¿Eliminar este video de tu cuenta?",
+    "footer": "Anima cualquier personaje a partir de una sola foto con transferencia de movimiento IA."
+  },
+  "auth": {
+    "badge": "ESTUDIO GENJUTSU AI",
+    "titleSignUp": "Crea tu cuenta",
+    "titleSignIn": "Bienvenido de nuevo",
+    "subtitle": "Anima personajes con créditos en la nube siempre disponibles.",
+    "google": "Continuar con Google",
+    "divider": "o con correo electrónico",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Al menos 8 caracteres",
+    "btnSignUp": "Crear cuenta",
+    "btnSignIn": "Iniciar sesión",
+    "switchHaveAccount": "¿Ya tienes cuenta?",
+    "switchNewHere": "¿Eres nuevo?"
+  },
+  "payment": {
+    "badge": "ESTADO DE PAGO STRIPE",
+    "title": "Confirmando tu compra…",
+    "waiting": "Esperando confirmación de pago de Stripe…",
+    "refresh": "Actualizar",
+    "viewOrders": "Ver Pedidos"
+  }
+}
