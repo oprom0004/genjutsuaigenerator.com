@@ -2,9 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {supportedLocales, defaultLocale, localizeUrl, getLocaleData} from '../lib/i18n.mjs';
 
-test('i18n - supported locales contains 6 primary languages', () => {
-  assert.equal(supportedLocales.length, 6);
-  assert.deepEqual(supportedLocales, ['en', 'ja', 'es', 'pt', 'de', 'fr']);
+test('i18n - supported locales contains 7 primary languages', () => {
+  assert.equal(supportedLocales.length, 7);
+  assert.deepEqual(supportedLocales, ['en', 'ja', 'zh', 'es', 'pt', 'de', 'fr']);
   assert.equal(defaultLocale, 'en');
 });
 
