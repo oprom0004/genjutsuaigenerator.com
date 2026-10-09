@@ -80,7 +80,7 @@ function scanFilesRecursively(dir) {
 
 scanFilesRecursively(distDir);
 if (jargonFound === 0) {
-  console.log('   ✅ Zero developer jargon or misleading claims detected across all 60 pages and JSONs.');
+  console.log('   ✅ Zero developer jargon or misleading claims detected across generated pages and locale JSONs.');
 }
 
 // 3. Verify SEO & Geo Tags in Rendered HTML

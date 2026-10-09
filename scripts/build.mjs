@@ -89,7 +89,7 @@ for (const locale of supportedLocales) {
     totalPagesRendered++;
 
     // Track for sitemap (exclude aliases so only canonical URLs are submitted to search engines)
-    if (!page.isAlias) {
+    if (!page.isAlias && page.type !== 'dashboard') {
       sitemapUrls.push({
         loc: `${siteConfig.origin}${relUrl}`,
         slug: page.slug,
@@ -128,6 +128,8 @@ console.log('✅ Generated sitemap.xml with xhtml:link alternates');
 // 5. Generate robots.txt
 const robotsTxt = `User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /dashboard/
 
 Sitemap: ${siteConfig.origin}/sitemap.xml
 `;

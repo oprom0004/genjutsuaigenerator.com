@@ -2172,3 +2172,9 @@ button, input, textarea {
     justify-content: space-between;
   }
 }
+[hidden] { display: none !important; }
+
+#user-videos-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),360px)); gap:1.25rem; }
+#user-videos-grid .showcase-card { padding:1rem; }
+#user-videos-grid video { display:block; height:420px; max-height:60vh; object-fit:contain; background:#000; margin:.75rem 0; }
+#user-videos-grid button { margin:.75rem; }

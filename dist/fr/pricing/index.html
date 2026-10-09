@@ -34,7 +34,7 @@
   <meta name="theme-color" content="#08090f">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/genjutsu.css">
+  <link rel="stylesheet" href="/genjutsu.css?v=96b5b0ab085b4d91">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%2308090f' stroke='%236366f1' stroke-width='2'/><circle cx='16' cy='16' r='6' fill='%236366f1'/><circle cx='16' cy='16' r='2' fill='%23ffffff'/><circle cx='16' cy='7' r='2.5' fill='%2306b6d4'/><circle cx='23.8' cy='20.5' r='2.5' fill='%2306b6d4'/><circle cx='8.2' cy='20.5' r='2.5' fill='%2306b6d4'/></svg>">
     <script type="application/ld+json">
 {
@@ -42,7 +42,7 @@
   "@type": "WebSite",
   "name": "Genjutsu AI Generator",
   "url": "https://genjutsuaigenerator.com",
-  "description": "Animez vos photos grâce au transfert de mouvement par IA. Importez un portrait, choisissez une danse virale ou un combat et générez une vidéo 9:16 en quelques minutes.",
+  "description": "Importez une image et choisissez Hip-Hop ou K-Pop. Créez une danse de 10 secondes et téléchargez votre MP4 privé en 720p. Les détails du visage et les mouvements peuvent varier.",
   "inLanguage": "fr"
 }
     </script>
@@ -54,7 +54,7 @@
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "Web, Cloud",
   "url": "https://genjutsuaigenerator.com",
-  "description": "Animez vos photos grâce au transfert de mouvement par IA. Importez un portrait, choisissez une danse virale ou un combat et générez une vidéo 9:16 en quelques minutes.",
+  "description": "Importez une image et choisissez Hip-Hop ou K-Pop. Créez une danse de 10 secondes et téléchargez votre MP4 privé en 720p. Les détails du visage et les mouvements peuvent varier.",
   "offers": {
     "@type": "Offer",
     "price": "9.99",
@@ -113,7 +113,7 @@
         <!-- User Credit Badge (client updated) -->
         <div class="credits-badge" id="user-credits-badge" style="display: none;">
           <span class="sparkle">✦</span>
-          <span id="header-credits-count">3</span>
+          <span id="header-credits-count">0</span>
           <span class="credits-label">crédits</span>
         </div>
 
@@ -173,7 +173,7 @@
       <div class="section-header text-center">
         <span class="section-eyebrow">TRANSPARENT CREATION CREDITS</span>
         <h2 class="section-title">Simple, Honest Pricing</h2>
-        <p class="section-intro">1 video credit creates one full animated video. No hidden fees or recurring traps.</p>
+        <p class="section-intro">3 crédits vidéo par mois. Renouvellement jusqu’à résiliation. Les crédits mensuels expirent en fin de période ; les crédits achetés à l’unité n’expirent pas.</p>
       </div>
 
       <div class="pricing-grid">
@@ -186,7 +186,7 @@
         <span class="price-unit">$9.99/video</span>
       </div>
       <p class="pack-desc">1 video credit · Never expires</p>
-      <button type="button" class="btn-secondary w-full btn-buy-pack" data-pack-name="1 Video Pack" data-pack-price="$9.99">
+      <button type="button" class="btn-secondary w-full btn-buy-pack" data-plan-id="video_1" data-pack-name="1 Video Pack" data-pack-price="$9.99">
         Get Credits Now
       </button>
     </div>
@@ -199,7 +199,7 @@
         <span class="price-unit">$5.99/video</span>
       </div>
       <p class="pack-desc">3 video credits · Only $5.99/video · Popular</p>
-      <button type="button" class="btn-primary w-full btn-buy-pack" data-pack-name="3 Videos Pack" data-pack-price="$17.99">
+      <button type="button" class="btn-primary w-full btn-buy-pack" data-plan-id="video_3" data-pack-name="3 Videos Pack" data-pack-price="$17.99">
         Get Credits Now
       </button>
     </div>
@@ -212,18 +212,19 @@
         <span class="price-unit">$4.99/video</span>
       </div>
       <p class="pack-desc">10 video credits · Only $4.99/video · Best Value</p>
-      <button type="button" class="btn-secondary w-full btn-buy-pack" data-pack-name="10 Videos Pack" data-pack-price="$49.99">
+      <button type="button" class="btn-secondary w-full btn-buy-pack" data-plan-id="video_10" data-pack-name="10 Videos Pack" data-pack-price="$49.99">
         Get Credits Now
       </button>
     </div>
   
       </div>
 
+      <div class="price-card" style="margin-top:24px"><h3>Pass mensuel</h3><strong class="price-amount">$14.99 / month</strong><p>3 crédits vidéo par mois. Renouvellement jusqu’à résiliation. Les crédits mensuels expirent en fin de période ; les crédits achetés à l’unité n’expirent pas.</p><button class="btn-primary btn-buy-pack" data-plan-id="monthly">S’abonner</button></div>
       <div class="guarantee-banner">
         <div class="guarantee-icon">🛡</div>
         <div class="guarantee-text">
           <strong class="guarantee-title">Credit Protection Guarantee</strong>
-          <p class="guarantee-desc">If a render fails due to a server error or technical dispatch issue, your spent credit is immediately restored to your balance. Zero risk.</p>
+          <p class="guarantee-desc">Un échec confirmé restitue un crédit. Les demandes incertaines sont vérifiées avant tout nouvel envoi.</p>
         </div>
       </div>
     </div>
@@ -244,7 +245,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>AI motion transfer extracts the skeletal movement, gestures, and performance from a source reference video and applies it to a still character photo. Genjutsu AI calculates 3D pose, hands, and facial geometry in every frame, synthesizing a fluid, continuous video where the character performs the choreography with their face, clothing, and art style 100% intact.</p>
+        <p>Importez une image et choisissez une danse. L’AI applique le mouvement ; les détails peuvent varier.</p>
       </div>
     </details>
   
@@ -254,7 +255,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>Traditional face swap only replaces the face within an existing video, leaving the original body, clothes, and physique untouched. Genjutsu AI performs full-character animation: it generates a completely new video of your chosen character from head to toe, matching their authentic silhouette, clothing folds, and hair motion to the choreography.</p>
+        <p>Le mouvement du corps est transféré, au lieu de remplacer seulement le visage.</p>
       </div>
     </details>
   
@@ -264,7 +265,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>Yes! Genjutsu AI is style-preserving. Photoreal portraits stay photoreal, 3D digital sculptures keep their metallic reflections and geometry, and anime illustrations maintain clean cel-shading and 2D outlines without looking like an unnatural photo filter.</p>
+        <p>Photos, anime ou personnages 3D. Un seul personnage clair est recommandé ; les poses complexes peuvent varier.</p>
       </div>
     </details>
   
@@ -274,7 +275,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>A clear, well-lit photo showing the character from head to waist (or full body) with neutral pose. Both real human portraits and digital art work seamlessly.</p>
+        <p>Tête, torse et idéalement corps entier. JPEG/PNG/WebP, au moins 320px par côté, maximum 4 mégapixels et 8MB.</p>
       </div>
     </details>
   
@@ -284,7 +285,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>Yes. In addition to our built-in viral motion library, you can upload any MP4 or MOV video between 5 and 30 seconds to serve as the custom choreography reference.</p>
+        <p>Deux références de 10 secondes : Hip-Hop et K-Pop. L’import de vidéos de référence personnelles est indisponible.</p>
       </div>
     </details>
   
@@ -294,7 +295,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>All completed renders are delivered as native vertical 9:16 MP4 files at 1080x1920 HD resolution, complete with audio matching the dance routine, ready for instant posting on TikTok, Instagram Reels, and YouTube Shorts.</p>
+        <p>MP4 vertical en 720p de 10 secondes. Audio non garanti ; ajoutez une musique autorisée si nécessaire.</p>
       </div>
     </details>
   
@@ -304,7 +305,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>Our Credit Protection Guarantee automatically refunds your spent credit back to your account ledger immediately if a rendering job fails. You never pay for an uncompleted generation.</p>
+        <p>Un échec confirmé rend un crédit. Les demandes incertaines sont vérifiées. Les préférences subjectives ne donnent pas de restitution automatique.</p>
       </div>
     </details>
   
@@ -314,7 +315,7 @@
         <span class="faq-icon">+</span>
       </summary>
       <div class="faq-answer">
-        <p>Yes. You retain full ownership and commercial rights to post, monetize, and distribute the videos you create from photos you own or have permission to use.</p>
+        <p>Utilisez des images autorisées avec le consentement des personnes. La génération ne confère aucun droit sur les personnages ou musiques de tiers.</p>
       </div>
     </details>
   
@@ -343,8 +344,8 @@
           <ul class="footer-links">
             <li><a href="/fr/#studio">Studio</a></li>
             <li><a href="/fr/#showcase">Exemples</a></li>
-            <li><a href="/fr/#modes">AI Motion Transfer &amp; Viral Dance</a></li>
-            <li><a href="/fr/#modes">Anime Transformation &amp; Genjutsu VFX</a></li>
+            <li><a href="/fr/#modes">Personnes réelles</a></li>
+            <li><a href="/fr/#modes">Illustrations anime</a></li>
             <li><a href="/fr/pricing/">Tarifs</a></li>
           </ul>
         </div>
@@ -383,7 +384,7 @@
 
       <div class="footer-bottom">
         <p class="copyright">© 2026 Genjutsu AI Generator. All rights reserved. Identity-Locked Character Motion Studio.</p>
-        <p class="credit-protection-note">If a render fails due to a server error or technical dispatch issue, your spent credit is immediately restored to your balance. Zero risk.</p>
+        <p class="credit-protection-note">Un échec confirmé restitue un crédit. Les demandes incertaines sont vérifiées avant tout nouvel envoi.</p>
       </div>
     </div>
   </footer>
@@ -407,7 +408,8 @@
           <span>or with email</span>
         </div>
 
-        <form class="auth-form" id="auth-form" onsubmit="return false;">
+        <label class="text-sm"><input type="checkbox" id="terms-consent"> J&#39;accepte les Conditions d&#39;Utilisation et la Politique de Confidentialité. <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a></label>
+        <form class="auth-form" id="auth-form">
           <div class="form-group" id="field-name" style="display: none;">
             <label for="input-name">Name</label>
             <input type="text" id="input-name" placeholder="Your name" autocomplete="name">
@@ -418,13 +420,14 @@
           </div>
           <div class="form-group">
             <label for="input-password">Password</label>
-            <input type="password" id="input-password" required placeholder="At least 8 characters" autocomplete="current-password">
+            <input type="password" id="input-password" minlength="12" maxlength="128" required placeholder="12–128 characters" autocomplete="current-password">
           </div>
           <button type="submit" class="btn-primary w-full" id="btn-submit-auth">
             Sign in
           </button>
         </form>
 
+        <button type="button" class="btn-link" id="btn-forgot-password">Mot de passe oublié ?</button>
         <div class="auth-footer-toggle">
           <span id="auth-toggle-label">New here?</span>
           <button type="button" class="btn-link" id="btn-toggle-auth-mode">Create account</button>
@@ -432,44 +435,8 @@
       </div>
     </div>
   </div>
-  
-  <div class="modal-overlay" id="payment-modal" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="payment-modal-title">
-    <div class="modal-card payment-card">
-      <button class="modal-close" id="btn-close-payment" aria-label="Fermer">✕</button>
-      <div class="modal-header">
-        <span class="modal-badge">STRIPE PAYMENT STATUS</span>
-        <h2 class="modal-title" id="payment-modal-title">Confirming your purchase…</h2>
-        <p class="modal-subtitle" id="payment-pack-subtitle">3 Videos Pack · $17.99</p>
-      </div>
 
-      <div class="payment-body">
-        <div class="simulated-checkout">
-          <div class="checkout-summary">
-            <div class="summary-line">
-              <span id="checkout-item-name">3 Videos Pack</span>
-              <span class="summary-price" id="checkout-item-price">$17.99</span>
-            </div>
-            <div class="summary-line text-sm text-dim">
-              <span>Instant Credits Delivery</span>
-              <span class="text-success">+3 Credits</span>
-            </div>
-            <div class="summary-line guarantee-line">
-              <span class="shield-icon">🛡</span>
-              <span>Credit Protection Guarantee: Credits returned if render fails</span>
-            </div>
-          </div>
-
-          <div class="payment-actions">
-            <button type="button" class="btn-primary w-full" id="btn-confirm-checkout">
-              <span>Complete Payment ($17.99)</span>
-            </button>
-            <p class="payment-security-note">256-bit encrypted secure checkout via Stripe</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div id="toast-container" class="toast-container" aria-live="polite"></div>
-  <script type="module" src="/genjutsu.mjs"></script>
+  <script type="module" src="/genjutsu.mjs?v=1145adc225720b77"></script>
 </body>
 </html>

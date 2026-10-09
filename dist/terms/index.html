@@ -34,7 +34,7 @@
   <meta name="theme-color" content="#08090f">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/genjutsu.css">
+  <link rel="stylesheet" href="/genjutsu.css?v=96b5b0ab085b4d91">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%2308090f' stroke='%236366f1' stroke-width='2'/><circle cx='16' cy='16' r='6' fill='%236366f1'/><circle cx='16' cy='16' r='2' fill='%23ffffff'/><circle cx='16' cy='7' r='2.5' fill='%2306b6d4'/><circle cx='23.8' cy='20.5' r='2.5' fill='%2306b6d4'/><circle cx='8.2' cy='20.5' r='2.5' fill='%2306b6d4'/></svg>">
     <script type="application/ld+json">
 {
@@ -42,7 +42,7 @@
   "@type": "WebSite",
   "name": "Genjutsu AI Generator",
   "url": "https://genjutsuaigenerator.com",
-  "description": "Animate any photo with AI motion transfer and character swaps. Upload one character portrait, pick a dance or combat move, and generate an identity-locked 9:16 video in minutes.",
+  "description": "Upload one character image and choose Hip-Hop or K-Pop motion. Create a 10-second AI dance video, then download your private 720p MP4. Facial details and motion quality can vary.",
   "inLanguage": "en"
 }
     </script>
@@ -54,7 +54,7 @@
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "Web, Cloud",
   "url": "https://genjutsuaigenerator.com",
-  "description": "Animate any photo with AI motion transfer and character swaps. Upload one character portrait, pick a dance or combat move, and generate an identity-locked 9:16 video in minutes.",
+  "description": "Upload one character image and choose Hip-Hop or K-Pop motion. Create a 10-second AI dance video, then download your private 720p MP4. Facial details and motion quality can vary.",
   "offers": {
     "@type": "Offer",
     "price": "9.99",
@@ -129,7 +129,7 @@
         <!-- User Credit Badge (client updated) -->
         <div class="credits-badge" id="user-credits-badge" style="display: none;">
           <span class="sparkle">✦</span>
-          <span id="header-credits-count">3</span>
+          <span id="header-credits-count">0</span>
           <span class="credits-label">credits</span>
         </div>
 
@@ -185,7 +185,7 @@
 
     <header class="article-header">
       <h1 class="article-title">Terms of Service</h1>
-      <p class="article-lead">Please review the terms and conditions governing your use of Genjutsu AI.</p>
+      <p class="article-lead">Explore motion references and sample outputs for free. Personalized generation requires purchased video credits. Upload one character image and select one of the two built-in 10-second dance references. Output is a 720p MP4; timing and quality vary.</p>
       <div class="article-meta-bar">
         <span>Published by Genjutsu AI Lab</span> ·
         <span>Updated October 2026</span>
@@ -198,12 +198,12 @@
       
     <section class="article-section">
       <h2 class="article-subheading">Acceptable Use &amp; Permissions</h2>
-      <p class="article-paragraph">You must own or hold explicit authorization to use any photos or videos you upload. Generating non-consensual imagery, deepfakes of public officials, or harmful content is strictly prohibited.</p>
+      <p class="article-paragraph">Use images you own or have permission to use, and get the depicted person’s consent. Generated media does not grant rights to third-party characters, music or source material. Confirmed failures return one credit. If the provider submission is uncertain, support reviews it before resubmitting. Successful renders are not refunded automatically for subjective preferences.</p>
     </section>
   
     <section class="article-section">
       <h2 class="article-subheading">Credits &amp; Payments</h2>
-      <p class="article-paragraph">Credits are deducted upon generation initiation. In the event of a system or model failure, spent credits are restored automatically to your account balance.</p>
+      <p class="article-paragraph">3 video credits each billing month. Renews until cancelled. Monthly credits expire at the end of each billing period; one-time credits do not expire. Confirmed failures return one credit. If the provider submission is uncertain, support reviews it before resubmitting. Successful renders are not refunded automatically for subjective preferences.</p>
     </section>
   
     </div>
@@ -214,7 +214,7 @@
 
     <div class="article-cta-box">
       <h3>Ready to create your first video?</h3>
-      <p>Transform any portrait or artwork into dynamic choreography in minutes.</p>
+      <p>Apply a dance motion to your character image with AI.</p>
       <a href="/#studio" class="btn-primary">Try Studio Now →</a>
     </div>
   </article>
@@ -240,8 +240,8 @@
           <ul class="footer-links">
             <li><a href="/#studio">Studio</a></li>
             <li><a href="/#showcase">Showcase</a></li>
-            <li><a href="/#modes">AI Motion Transfer &amp; Viral Dance</a></li>
-            <li><a href="/#modes">Anime Transformation &amp; Genjutsu VFX</a></li>
+            <li><a href="/#modes">Real people</a></li>
+            <li><a href="/#modes">Anime illustrations</a></li>
             <li><a href="/pricing/">Pricing</a></li>
           </ul>
         </div>
@@ -280,7 +280,7 @@
 
       <div class="footer-bottom">
         <p class="copyright">© 2026 Genjutsu AI Generator. All rights reserved. Identity-Locked Character Motion Studio.</p>
-        <p class="credit-protection-note">If a render fails due to a server error or technical dispatch issue, your spent credit is immediately restored to your balance. Zero risk.</p>
+        <p class="credit-protection-note">Confirmed generation failures return one credit. Uncertain submissions are reviewed before retrying to avoid duplicate charges.</p>
       </div>
     </div>
   </footer>
@@ -304,7 +304,8 @@
           <span>or with email</span>
         </div>
 
-        <form class="auth-form" id="auth-form" onsubmit="return false;">
+        <label class="text-sm"><input type="checkbox" id="terms-consent"> I agree to the Terms of Service and Privacy Policy. <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a></label>
+        <form class="auth-form" id="auth-form">
           <div class="form-group" id="field-name" style="display: none;">
             <label for="input-name">Name</label>
             <input type="text" id="input-name" placeholder="Your name" autocomplete="name">
@@ -315,13 +316,14 @@
           </div>
           <div class="form-group">
             <label for="input-password">Password</label>
-            <input type="password" id="input-password" required placeholder="At least 8 characters" autocomplete="current-password">
+            <input type="password" id="input-password" minlength="12" maxlength="128" required placeholder="12–128 characters" autocomplete="current-password">
           </div>
           <button type="submit" class="btn-primary w-full" id="btn-submit-auth">
             Sign in
           </button>
         </form>
 
+        <button type="button" class="btn-link" id="btn-forgot-password">Forgot password?</button>
         <div class="auth-footer-toggle">
           <span id="auth-toggle-label">New here?</span>
           <button type="button" class="btn-link" id="btn-toggle-auth-mode">Create account</button>
@@ -329,44 +331,8 @@
       </div>
     </div>
   </div>
-  
-  <div class="modal-overlay" id="payment-modal" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="payment-modal-title">
-    <div class="modal-card payment-card">
-      <button class="modal-close" id="btn-close-payment" aria-label="Close">✕</button>
-      <div class="modal-header">
-        <span class="modal-badge">STRIPE PAYMENT STATUS</span>
-        <h2 class="modal-title" id="payment-modal-title">Confirming your purchase…</h2>
-        <p class="modal-subtitle" id="payment-pack-subtitle">3 Videos Pack · $17.99</p>
-      </div>
 
-      <div class="payment-body">
-        <div class="simulated-checkout">
-          <div class="checkout-summary">
-            <div class="summary-line">
-              <span id="checkout-item-name">3 Videos Pack</span>
-              <span class="summary-price" id="checkout-item-price">$17.99</span>
-            </div>
-            <div class="summary-line text-sm text-dim">
-              <span>Instant Credits Delivery</span>
-              <span class="text-success">+3 Credits</span>
-            </div>
-            <div class="summary-line guarantee-line">
-              <span class="shield-icon">🛡</span>
-              <span>Credit Protection Guarantee: Credits returned if render fails</span>
-            </div>
-          </div>
-
-          <div class="payment-actions">
-            <button type="button" class="btn-primary w-full" id="btn-confirm-checkout">
-              <span>Complete Payment ($17.99)</span>
-            </button>
-            <p class="payment-security-note">256-bit encrypted secure checkout via Stripe</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div id="toast-container" class="toast-container" aria-live="polite"></div>
-  <script type="module" src="/genjutsu.mjs"></script>
+  <script type="module" src="/genjutsu.mjs?v=1145adc225720b77"></script>
 </body>
 </html>

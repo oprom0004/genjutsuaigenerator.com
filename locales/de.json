@@ -8,7 +8,7 @@
     "siteOrigin": "https://genjutsuaigenerator.com",
     "tagline": "KI-Bewegungsübertragung & Charakter-Animation",
     "homeTitle": "Genjutsu AI Generator — Jedes Foto mit KI-Bewegung & Tanz animieren",
-    "homeDescription": "Animieren Sie Fotos mit KI-Bewegungsübertragung. Foto hochladen, Tanz oder Kampf-Move wählen und in Minuten ein 9:16-Video mit stabiler Identität erstellen."
+    "homeDescription": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
   },
   "nav": {
     "generator": "Studio",
@@ -29,19 +29,19 @@
     "hero": {
       "eyebrow": "KI-BEWEGUNGSÜBERTRAGUNG & CHARAKTER-ANIMATION",
       "h1": "Erwecken Sie jeden Charakter mit KI-Bewegung zum Leben",
-      "lead": "Verwandeln Sie statische Fotos in flüssige Videos mit stabiler Identität. Animieren Sie Porträts mit viralen TikTok-Tänzen oder Anime-Moves – ganz ohne Greenscreen.",
+      "lead": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren.",
       "stats": [
         {
           "val": "1 Foto",
           "label": "JEDER CHARAKTER"
         },
         {
-          "val": "9:16 HD",
+          "val": "720p MP4",
           "label": "TIKTOK & REELS"
         },
         {
-          "val": "100%",
-          "label": "IDENTITÄT GESCHÜTZT"
+          "val": "10s",
+          "label": "AI VIDEO"
         }
       ]
     },
@@ -78,7 +78,7 @@
         }
       ],
       "step2Title": "2. Bewegung oder Tanz wählen",
-      "step2Hint": "Aus der Bibliothek wählen oder Video hochladen",
+      "step2Hint": "Eine der zwei integrierten Tanzvorlagen wählen.",
       "moves": [
         {
           "id": "src-hiphop",
@@ -98,7 +98,7 @@
         }
       ],
       "btnGenerate": "Charakter animieren (1 Guthaben)",
-      "specs": "Renderzeit ~2 Min. · 9:16 MP4 · Guthaben geschützt bei Fehlschlag",
+      "specs": "Die Verarbeitung dauert je nach Warteschlange mehrere Minuten.",
       "readyTitle": "Ihr animiertes Video ist fertig!",
       "readyBadge": "RENDER ABGESCHLOSSEN",
       "btnDownload": "MP4 herunterladen",
@@ -118,7 +118,7 @@
           "id": "out-street-hiphop",
           "title": "Street Dancer × Hip-hop groove",
           "tag": "REALISTIC STREET DANCE",
-          "desc": "Single studio portrait driven by hip-hop footwork and arm waves. Face, hairstyle, and sneakers stay locked frame-by-frame.",
+          "desc": "Bild hochladen und Tanz wählen. AI überträgt die Bewegung; Details können variieren.",
           "video": "/media/out-street-hiphop.mp4",
           "poster": "/media/out-street-hiphop.webp",
           "srcVideo": "/media/src-hiphop.mp4",
@@ -128,7 +128,7 @@
           "id": "out-ninja-kpop",
           "title": "Cyber Ninja × K-pop flow",
           "tag": "3D ARMORED CHOREOGRAPHY",
-          "desc": "A 3D-rendered cyborg warrior executes intricate shoulder rolls and body isolations without melting rigid armor plates.",
+          "desc": "Bild hochladen und Tanz wählen. AI überträgt die Bewegung; Details können variieren.",
           "video": "/media/out-ninja-kpop.mp4",
           "poster": "/media/out-ninja-kpop.webp",
           "srcVideo": "/media/src-kpop.mp4",
@@ -138,7 +138,7 @@
           "id": "out-anime-kpop",
           "title": "Anime Hero × K-pop flow",
           "tag": "CEL-SHADED STYLE PRESERVATION",
-          "desc": "Illustration in, cel-shaded animation out. Linework and color fills move with authentic 2D anime timing.",
+          "desc": "Bild hochladen und Tanz wählen. AI überträgt die Bewegung; Details können variieren.",
           "video": "/media/out-anime-kpop.mp4",
           "poster": "/media/out-anime-kpop.webp",
           "srcVideo": "/media/src-kpop.mp4",
@@ -148,7 +148,7 @@
           "id": "out-suit-hiphop",
           "title": "Classic Suit × Hip-hop groove",
           "tag": "ELEGANT CONTRAST DANCE",
-          "desc": "Tailored suit silhouette and facial expression carried through rapid tempo switches and spins.",
+          "desc": "Bild hochladen und Tanz wählen. AI überträgt die Bewegung; Details können variieren.",
           "video": "/media/out-suit-hiphop.mp4",
           "poster": "/media/out-suit-hiphop.webp",
           "srcVideo": "/media/src-hiphop.mp4",
@@ -157,20 +157,20 @@
       ]
     },
     "pillars": {
-      "eyebrow": "THREE REALITY-BENDING MODES",
-      "title": "More Than Just Dance: Complete Character Animation",
+      "eyebrow": "Verfügbare Stile",
+      "title": "Verfügbare Stile",
       "items": [
         {
-          "title": "AI Motion Transfer & Viral Dance",
-          "desc": "Extract full-body poses, footwork, hand gestures, and rhythm from any video, then direct your character to perform it with fluid natural physics."
+          "title": "Echte Personen",
+          "desc": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
-          "title": "Anime Transformation & Genjutsu VFX",
-          "desc": "Blend cel-shaded anime line art, dramatic eye transitions, and reality-warping background shifts without rotoscoping or manual frame cleanup."
+          "title": "Anime-Illustrationen",
+          "desc": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
-          "title": "Cinematic Character Recast",
-          "desc": "Place any character into iconic movie scenes or commercial choreography while preserving original camera tracking, depth of field, and grain."
+          "title": "3D-Figuren",
+          "desc": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -186,12 +186,12 @@
         {
           "num": "02",
           "title": "Select Motion or Video",
-          "desc": "Pick a pre-choreographed dance from our library or upload your own 5–30 second reference video."
+          "desc": "Eine der zwei integrierten Tanzvorlagen wählen."
         },
         {
           "num": "03",
           "title": "Download 9:16 Video",
-          "desc": "Receive an identity-locked, high-definition MP4 formatted for TikTok, Reels, and YouTube Shorts."
+          "desc": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -246,7 +246,7 @@
     "pricing": {
       "eyebrow": "TRANSPARENT CREATION CREDITS",
       "title": "Simple, Honest Pricing",
-      "intro": "1 video credit creates one full animated video. No hidden fees or recurring traps.",
+      "intro": "3 Video-Credits pro Monat. Verlängerung bis zur Kündigung. Monatliche Credits verfallen am Periodenende; einmalige Credits verfallen nicht.",
       "packs": [
         {
           "name": "1 Video Pack",
@@ -277,7 +277,7 @@
       },
       "cta": "Get Credits Now",
       "guaranteeTitle": "Credit Protection Guarantee",
-      "guaranteeDesc": "If a render fails due to a server error or technical dispatch issue, your spent credit is immediately restored to your balance. Zero risk."
+      "guaranteeDesc": "Bestätigte Fehler erstatten einen Credit. Unklare Übermittlungen werden vor Wiederholung geprüft."
     },
     "faq": {
       "eyebrow": "FREQUENTLY ASKED QUESTIONS",
@@ -285,35 +285,35 @@
       "items": [
         {
           "q": "What is AI motion transfer and how does Genjutsu AI work?",
-          "a": "AI motion transfer extracts the skeletal movement, gestures, and performance from a source reference video and applies it to a still character photo. Genjutsu AI calculates 3D pose, hands, and facial geometry in every frame, synthesizing a fluid, continuous video where the character performs the choreography with their face, clothing, and art style 100% intact."
+          "a": "Bild hochladen und Tanz wählen. AI überträgt die Bewegung; Details können variieren."
         },
         {
           "q": "How is Genjutsu AI different from generic face swap apps?",
-          "a": "Traditional face swap only replaces the face within an existing video, leaving the original body, clothes, and physique untouched. Genjutsu AI performs full-character animation: it generates a completely new video of your chosen character from head to toe, matching their authentic silhouette, clothing folds, and hair motion to the choreography."
+          "a": "Körperbewegung wird übertragen, statt nur ein Gesicht auszutauschen."
         },
         {
           "q": "Does it work with anime, 3D avatars, and illustrated art?",
-          "a": "Yes! Genjutsu AI is style-preserving. Photoreal portraits stay photoreal, 3D digital sculptures keep their metallic reflections and geometry, and anime illustrations maintain clean cel-shading and 2D outlines without looking like an unnatural photo filter."
+          "a": "Fotos, Anime oder 3D-Figuren. Eine einzelne klare Figur verwenden; komplexe Posen können variieren."
         },
         {
           "q": "What kind of photos work best?",
-          "a": "A clear, well-lit photo showing the character from head to waist (or full body) with neutral pose. Both real human portraits and digital art work seamlessly."
+          "a": "Kopf, Oberkörper und möglichst ganzer Körper. JPEG/PNG/WebP, mindestens 320px je Seite, höchstens 4 Megapixel und 8MB."
         },
         {
           "q": "Can I upload my own custom dance or workout video?",
-          "a": "Yes. In addition to our built-in viral motion library, you can upload any MP4 or MOV video between 5 and 30 seconds to serve as the custom choreography reference."
+          "a": "Zwei 10-Sekunden-Vorlagen: Hip-Hop und K-Pop. Eigene Referenzvideos können nicht hochgeladen werden."
         },
         {
           "q": "What output format and resolution do I receive?",
-          "a": "All completed renders are delivered as native vertical 9:16 MP4 files at 1080x1920 HD resolution, complete with audio matching the dance routine, ready for instant posting on TikTok, Instagram Reels, and YouTube Shorts."
+          "a": "Vertikales 720p MP4 mit 10 Sekunden. Audio ist nicht garantiert; bei Bedarf lizenzierte Musik hinzufügen."
         },
         {
           "q": "What happens if a video render fails?",
-          "a": "Our Credit Protection Guarantee automatically refunds your spent credit back to your account ledger immediately if a rendering job fails. You never pay for an uncompleted generation."
+          "a": "Bestätigte Fehler erstatten einen Credit. Unklare Übermittlungen werden geprüft. Keine automatische Erstattung bei subjektiven Vorlieben."
         },
         {
           "q": "Do you own the rights to the videos you generate?",
-          "a": "Yes. You retain full ownership and commercial rights to post, monetize, and distribute the videos you create from photos you own or have permission to use."
+          "a": "Bildrechte und Zustimmung abgebildeter Personen sind erforderlich. Generierung überträgt keine Rechte an fremden Figuren oder Musik."
         }
       ]
     }
@@ -360,19 +360,19 @@
       "metaTitle": "How to Make an AI Motion Transfer Video: Complete 2026 Guide",
       "metaDescription": "Step-by-step tutorial on creating AI motion transfer videos from photos. Learn photo selection, motion tracking, identity preservation, and TikTok export.",
       "h1": "How to Make an AI Motion Transfer Video",
-      "intro": "AI motion transfer has transformed social video production: take any still portrait and make them perform complex choreography with identity locking.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "What is AI Motion Transfer?",
-          "body": "Motion transfer technology isolates human movement from a source video and maps those dynamics onto an unrelated still photograph. Unlike primitive face swaps that only glue facial features onto someone else's body, motion transfer reconstructs full-body movement, cloth physics, and posture from scratch."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Choosing the Ideal Character Photo",
-          "body": "For best results, use a sharp, evenly lit image where the character's facial features, hands, and outfit are clearly distinguishable. The model preserves artistic style — anime stays cel-shaded, 3D remains rendered, and photos stay photographic."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Exporting for TikTok, Reels, and Shorts",
-          "body": "Native 9:16 vertical orientation ensures maximum engagement on mobile feeds. Genjutsu AI renders directly to vertical MP4 format with audio synchronization, eliminating the need for post-crop editing."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -382,15 +382,15 @@
       "metaTitle": "AI Dance Video Generator: Turn Any Photo into Viral Choreography",
       "metaDescription": "Learn how creators turn still portraits into viral TikTok dance videos using AI motion transfer and identity preservation.",
       "h1": "The Complete Guide to AI Dance Video Generation",
-      "intro": "From K-pop chorus routines to hip-hop footwork, AI dance generation allows creators to animate historical figures, anime characters, and personal avatars in minutes.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "Why AI Dance Videos Go Viral",
-          "body": "Viewers are captivated by the surreal contrast of unexpected characters executing precise, high-energy dance routines. An anime ninja performing K-pop or a Renaissance portrait doing hip-hop generates immense curiosity and watch time."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Key Elements of Identity Locking",
-          "body": "Without identity locking, character faces warp and drift as heads turn. Genjutsu AI maintains facial geometry across 360-degree rotations and rapid spins, ensuring your character remains recognizable throughout the routine."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -400,15 +400,15 @@
       "metaTitle": "Character Swap vs Face Swap: Key Differences in AI Video Generation",
       "metaDescription": "Understand the differences between video face swaps and full AI character swaps. Discover which technology suits your creative projects.",
       "h1": "Character Swap vs Face Swap: Technology & Creative Differences",
-      "intro": "While both technologies alter people in video, full character swap and simple face swap operate on entirely different computational principles.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "How Face Swap Works",
-          "body": "Face swap detects facial landmarks on a performer and pastes a replacement face mask onto the original head. The original actor's body, clothing, proportions, and background remain completely untouched."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "How Full Character Swap Works",
-          "body": "Character swap replaces the entire performer — head, torso, clothing, and limbs. The AI synthesizes the character performing the motion while maintaining the surrounding environment, lighting, and camera movement."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -418,15 +418,15 @@
       "metaTitle": "Terms of Service — Genjutsu AI",
       "metaDescription": "Terms and conditions for using Genjutsu AI video generation services.",
       "h1": "Terms of Service",
-      "intro": "Please review the terms and conditions governing your use of Genjutsu AI.",
+      "intro": "Beispiele kostenlos ansehen. Generierung benötigt gekaufte Credits. Ein Bild hochladen und aus zwei 10-Sekunden-Tänzen wählen. Ausgabe als 720p MP4; Dauer und Qualität variieren.",
       "sections": [
         {
           "heading": "Acceptable Use & Permissions",
-          "body": "You must own or hold explicit authorization to use any photos or videos you upload. Generating non-consensual imagery, deepfakes of public officials, or harmful content is strictly prohibited."
+          "body": "Bildrechte und Zustimmung abgebildeter Personen sind erforderlich. Generierung überträgt keine Rechte an fremden Figuren oder Musik. Bestätigte Fehler erstatten einen Credit. Unklare Übermittlungen werden geprüft. Keine automatische Erstattung bei subjektiven Vorlieben."
         },
         {
           "heading": "Credits & Payments",
-          "body": "Credits are deducted upon generation initiation. In the event of a system or model failure, spent credits are restored automatically to your account balance."
+          "body": "3 Video-Credits pro Monat. Verlängerung bis zur Kündigung. Monatliche Credits verfallen am Periodenende; einmalige Credits verfallen nicht. Bestätigte Fehler erstatten einen Credit. Unklare Übermittlungen werden geprüft. Keine automatische Erstattung bei subjektiven Vorlieben."
         }
       ]
     },
@@ -436,15 +436,15 @@
       "metaTitle": "Privacy Policy — Genjutsu AI",
       "metaDescription": "How Genjutsu AI protects your personal photos, videos, and account information.",
       "h1": "Privacy Policy",
-      "intro": "We are committed to user privacy and secure processing of media files.",
+      "intro": "Bilder und Videos sind privat und werden bis zu 7 Tage gespeichert. Referenzen werden an KIE übermittelt. Erforderliche Konto- und Zahlungsdaten bleiben gespeichert. Betreiber KirooAI. contact@genjutsuaigenerator.com.",
       "sections": [
         {
           "heading": "Media Processing & Retention",
-          "body": "Uploaded photos and videos are stored in encrypted cloud storage solely to render your requested video. Media is automatically expunged after 7 days unless saved to your library."
+          "body": "Bilder und Videos sind privat und werden bis zu 7 Tage gespeichert. Referenzen werden an KIE übermittelt. Erforderliche Konto- und Zahlungsdaten bleiben gespeichert. Betreiber KirooAI. contact@genjutsuaigenerator.com."
         },
         {
-          "heading": "No Model Training on User Photos",
-          "body": "Your private uploads are never used to train public machine learning foundation models."
+          "heading": "Konten, Zahlungen und Dienstleister",
+          "body": "Bilder und Videos sind privat und werden bis zu 7 Tage gespeichert. Referenzen werden an KIE übermittelt. Erforderliche Konto- und Zahlungsdaten bleiben gespeichert. Betreiber KirooAI. contact@genjutsuaigenerator.com."
         }
       ]
     },
@@ -454,11 +454,11 @@
       "metaTitle": "About Genjutsu AI — Next-Gen Motion Synthesis",
       "metaDescription": "Learn about Genjutsu AI, our mission to democratize cinematic video motion synthesis.",
       "h1": "About Genjutsu AI",
-      "intro": "Genjutsu AI is dedicated to empowering creators with accessible, studio-grade motion transfer.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "Our Mission",
-          "body": "We believe visual storytelling should not be constrained by complex motion capture hardware, expensive studio spaces, or intensive 3D rigging workflows. Genjutsu AI brings studio-grade character animation directly to web creators worldwide."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -471,38 +471,38 @@
       "metaTitle": "Was ist Genjutsu AI? Leitfaden für KI-Bewegungsübertragung",
       "metaDescription": "Discover what Genjutsu AI is, how the Genjutsu model powers character motion transfer, and why it is revolutionizing AI dance videos in 2026.",
       "h1": "Was ist Genjutsu AI? Leitfaden für KI-Bewegungsübertragung",
-      "intro": "Genjutsu AI represents a paradigm shift in generative video: instead of prompt-guessing, it transfers precise human choreography onto still characters while preserving 100% facial and stylistic identity.",
-      "quickAnswer": "Genjutsu AI is a video-to-video deep learning framework that extracts full-body skeletal motion, hand gestures, and camera tracking from a source video and maps it onto any 2D, 3D, or real character image. Popularized by models like Higgsfield Genjutsu, it enables creators to produce seamless, identity-locked vertical dance videos in minutes without 3D rigs or green screens.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
+      "quickAnswer": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "The Origin and Meaning of 'Genjutsu' in AI",
-          "body": "In Japanese mythology and pop culture, 'Genjutsu' (幻術) refers to illusory techniques that manipulate perception and reality. In 2026, AI researchers and generative video platforms—most notably Higgsfield AI—adopted this term to designate a new generation of 'reality manipulation' models. Rather than generating random hallucinations from scratch, Genjutsu AI warps reality by swapping characters and transforming video dynamics with surgical precision."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "How the Genjutsu Motion Synthesis Architecture Operates",
-          "body": "Traditional text-to-video models suffer from severe temporal jitter: faces morph between frames, and characters lose coherence. Genjutsu AI solves this through a multi-stage reference pipeline: 1) 3D DensePose skeletal joint extraction from reference choreography; 2) Identity feature locking preserving facial mesh, clothing folds, and hair geometry; 3) Latent video-to-video diffusion that synthesizes natural fabric physics and kinetic rhythm."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Genjutsu AI vs. Legacy Face Swap & Text-to-Video",
-          "body": "Unlike primitive deepfake face-swapping—which only replaces an oval facial mask on someone else's body—Genjutsu AI rebuilds the entire character from head to toe. It honors the character's unique proportions, footwear, and art style while matching the lighting and depth of the choreography."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Why Genjutsu AI is Surging in Social Video Production",
-          "body": "Short-form video platforms (TikTok, Instagram Reels, YouTube Shorts) reward rhythmic choreography, unexpected character contrasts, and high visual retention. Creators use Genjutsu AI to animate historical figures doing modern hip-hop, bring anime characters into real-world dance trends, and produce virtual influencer content at a fraction of 3D motion capture costs."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ],
       "faq": [
         {
           "q": "What is the difference between Genjutsu AI and Higgsfield Genjutsu?",
-          "a": "Higgsfield AI developed the underlying Genjutsu model for complex studio VFX workflows. Genjutsu AI Generator (genjutsuaigenerator.com) provides a browser-based, instant one-click studio designed specifically for creators seeking fast, ready-to-post 9:16 vertical dance and motion transfer videos."
+          "a": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Bestätigte Fehler erstatten einen Credit. Unklare Übermittlungen werden vor Wiederholung geprüft."
         },
         {
           "q": "Does Genjutsu AI work on illustrated and 3D characters?",
-          "a": "Yes. Genjutsu AI preserves original artistic styling: 2D anime illustrations keep clean cel-shading outlines, and 3D digital sculpts maintain specular lighting and material shaders."
+          "a": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Bestätigte Fehler erstatten einen Credit. Unklare Übermittlungen werden vor Wiederholung geprüft."
         },
         {
           "q": "Can I test Genjutsu AI for free?",
-          "a": "Yes. Genjutsu AI Generator offers complimentary test creation credits directly in the Hero studio, allowing you to animate your first character without upfront payment."
+          "a": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Bestätigte Fehler erstatten einen Credit. Unklare Übermittlungen werden vor Wiederholung geprüft."
         }
       ]
     },
@@ -513,26 +513,26 @@
       ],
       "navLabel": "Genjutsu AI Anleitung",
       "metaTitle": "Anleitung: Genjutsu AI nutzen für virale Tanzvideos & Prompts",
-      "metaDescription": "Learn how to use Genjutsu AI to animate any character. Complete tutorial on prompt crafting, motion reference selection, and TikTok viral exporting.",
+      "metaDescription": "Beispiele kostenlos ansehen. Generierung benötigt gekaufte Credits. Ein Bild hochladen und aus zwei 10-Sekunden-Tänzen wählen. Ausgabe als 720p MP4; Dauer und Qualität variieren.",
       "h1": "Anleitung: Genjutsu AI nutzen für virale Tanzvideos & Prompts",
-      "intro": "Master the complete workflow of Genjutsu AI: from selecting your source character photo to choosing viral choreography and downloading 9:16 HD MP4 exports.",
-      "quickAnswer": "To use Genjutsu AI: 1) Upload a clear portrait or select a sample character preset; 2) Pick a dance or combat choreography routine from the library or upload your own 5–30s reference video; 3) Click 'Animate Character' to generate your 9:16 HD video in ~2 minutes.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
+      "quickAnswer": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "Step 1: Selecting the Ideal Character Image",
-          "body": "Your source image serves as the identity anchor. For best results, use an evenly lit photo with neutral contrast where the character's facial features, hands, and outfit are clearly distinguishable. Front-facing or three-quarter poses from head to waist (or full body) yield the cleanest motion continuity."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Step 2: Choosing Reference Choreography",
-          "body": "The motion reference dictates the timing, footwork, and energy of the synthesized video. Select from our built-in viral choreography library (Hip-Hop Groove, K-Pop Viral Chorus) or upload your own clean reference video. Avoid source videos with extreme camera shake or multiple overlapping dancers."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Step 3: Genjutsu AI Prompt Formulas for Video-to-Video",
-          "body": "When guiding motion transfer models, prompt specificity matters. A proven prompt template structure is: [Subject Description] + [Dance Style & Tempo] + [Lighting & Environment] + [Camera Lens Details]. Combining clear reference imagery with targeted motion prompts produces maximum consistency."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Step 4: Exporting for TikTok, Reels, and YouTube Shorts",
-          "body": "Genjutsu AI Generator renders directly into vertical 9:16 HD MP4 at 1080x1920 with synchronized audio tracks, eliminating post-production cropping. Download the MP4 file and publish directly to mobile video platforms."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ],
       "promptTemplates": [
@@ -562,8 +562,8 @@
       "metaTitle": "Die 5 besten Genjutsu AI Generatoren 2026 im Vergleich",
       "metaDescription": "Compare the best Genjutsu AI tools and Higgsfield alternatives for motion transfer, dance animation, and character swaps. Ranked by speed, accuracy, and price.",
       "h1": "Die 5 besten Genjutsu AI Generatoren 2026 im Vergleich",
-      "intro": "We tested and ranked the top Genjutsu AI tools and motion transfer alternatives on identity locking, render speed, ease of use, and pricing transparency.",
-      "quickAnswer": "The best Genjutsu AI generator for social media creators is Genjutsu AI Generator (genjutsuaigenerator.com) due to its instant browser studio, one-click preset library, and Credit Protection Guarantee. For enterprise VFX studios with advanced node pipelines, Higgsfield AI Genjutsu remains the leading pro-grade platform.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
+      "quickAnswer": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "comparisonTable": {
         "headers": [
           "Platform",
@@ -613,23 +613,23 @@
       "sections": [
         {
           "heading": "1. Genjutsu AI Generator (Top Pick for Creators)",
-          "body": "Genjutsu AI Generator (genjutsuaigenerator.com) delivers the fastest path from a single portrait to a viral 9:16 dance video. With an interactive Hero creation widget, pre-tested choreographies, multi-language localization, and an automatic Credit Protection Guarantee, it removes all technical friction for digital creators."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "2. Higgsfield AI Genjutsu",
-          "body": "Higgsfield AI created the foundational Genjutsu reality manipulation model. It excels at complex multi-layered video-to-video editing, camera trajectory tracking, and enterprise-grade visual effects, though it requires greater technical proficiency."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "3. Viggle AI",
-          "body": "Popularized on Discord, Viggle allows users to paste characters onto existing dance clips with green-screen backgrounds. While fun for social memes, identity fidelity and clothing details frequently distort during complex spins."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "4. Kling AI Motion Transfer",
-          "body": "Kling's motion synthesis module delivers impressive physical realism and natural body weight distribution. However, rendering times can be lengthy during peak queue hours."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "How to Choose the Right Tool for Your Workflow",
-          "body": "If you need rapid turnarounds for TikTok, Instagram Reels, and YouTube Shorts without technical software or subscriptions, Genjutsu AI Generator is the most efficient choice. For cinema-grade multi-shot composition, explore node-based platforms."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -640,22 +640,22 @@
       ],
       "navLabel": "Kostenloses Genjutsu AI",
       "metaTitle": "Kostenloser Genjutsu AI Generator: Fotos online animieren",
-      "metaDescription": "Try Genjutsu AI for free with no credit card required. Generate 9:16 HD viral dance and motion transfer videos directly in your web browser.",
+      "metaDescription": "Beispiele kostenlos ansehen. Generierung benötigt gekaufte Credits. Ein Bild hochladen und aus zwei 10-Sekunden-Tänzen wählen. Ausgabe als 720p MP4; Dauer und Qualität variieren.",
       "h1": "Kostenloser Genjutsu AI Generator: Fotos online animieren",
-      "intro": "Get started with AI motion transfer for free: explore our preset library, test custom photo uploads, and generate your first viral video without subscription traps.",
-      "quickAnswer": "You can use Genjutsu AI Generator for free by claiming welcome creation credits directly in the web studio. No credit card is required, and your credits are protected by our Credit Protection Guarantee if a render encounters any technical interruption.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
+      "quickAnswer": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "What is Included with Free Genjutsu AI?",
-          "body": "Unlike restrictive tools that lock you behind paywalls or enforce watermarked low-resolution exports, Genjutsu AI Generator provides full access to our motion transfer engine. You receive complimentary creation credits to test character photos, preview choreography alignments, and download full 9:16 HD MP4 exports."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Zero Credit Card Required",
-          "body": "You do not need to enter payment credentials to experience AI motion transfer. Open the studio, choose a sample character or upload your own image, select a motion routine, and render immediately."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Our Credit Protection Guarantee",
-          "body": "We believe creators should only pay for successful results. If any generation fails due to network interruptions or AI rendering errors, your spent credit is automatically restored to your account ledger immediately."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     },
@@ -668,20 +668,20 @@
       "metaTitle": "Higgsfield AI Genjutsu Alternative: Browser-Studio für Videos",
       "metaDescription": "Looking for a Higgsfield AI Genjutsu alternative? Discover how Genjutsu AI Generator offers browser-based 1-click motion transfer without complex workflows.",
       "h1": "Higgsfield AI Genjutsu Alternative: Browser-Studio für Videos",
-      "intro": "While Higgsfield AI pioneered the Genjutsu reality manipulation model for professional pipelines, everyday creators need a faster, browser-native solution for viral social videos.",
-      "quickAnswer": "Genjutsu AI Generator is the top browser-based alternative to Higgsfield AI Genjutsu. It eliminates complex node setups and waiting lists, allowing creators to upload one photo, pick a viral dance routine, and generate 9:16 HD MP4s in minutes.",
+      "intro": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
+      "quickAnswer": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren. Eine der zwei integrierten Tanzvorlagen wählen.",
       "sections": [
         {
           "heading": "Understanding the Higgsfield Genjutsu Paradigm",
-          "body": "Higgsfield's Genjutsu model introduced high-fidelity video-to-video manipulation, enabling creators to transform live footage into stylized scenes. However, its studio-focused workflow can be overly intricate for social content creators who simply want to animate a portrait with viral choreography."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Why Creators Prefer Genjutsu AI Generator as an Alternative",
-          "body": "1) Immediate Browser Studio: No waitlists or complex installation; 2) Pre-Trained Choreography Library: One click to apply Hip-Hop, K-Pop, or combat motion; 3) Transparent Credit System: Pay only for what you render with full Credit Protection; 4) Native 9:16 Social Video Output."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         },
         {
           "heading": "Prompt Compatibility & Migration",
-          "body": "Any character description or prompt concept designed for Higgsfield Genjutsu translates seamlessly into Genjutsu AI Generator. The model accurately interprets identity tokens, stylistic directives, and lighting parameters."
+          "body": "Ein Bild hochladen und Hip-Hop oder K-Pop wählen. Ein 10-Sekunden-Tanzvideo als privates 720p MP4 herunterladen. Gesichtsdetails und Bewegungen können variieren."
         }
       ]
     }
@@ -729,7 +729,7 @@
     "emailLabel": "Email",
     "emailPlaceholder": "you@example.com",
     "passwordLabel": "Password",
-    "passwordPlaceholder": "At least 8 characters",
+    "passwordPlaceholder": "12–128 characters",
     "btnSignUp": "Create account",
     "btnSignIn": "Sign in",
     "switchHaveAccount": "Already have an account?",
@@ -741,5 +741,11 @@
     "waiting": "Waiting for confirmation from Stripe…",
     "refresh": "Refresh Status",
     "viewOrders": "View Orders"
+  },
+  "production": {
+    "photoConsent": "Ich darf dieses Bild verwenden.",
+    "monthly": "Monatlicher Creator-Pass",
+    "monthlyDesc": "3 Video-Credits pro Monat. Verlängerung bis zur Kündigung. Monatliche Credits verfallen am Periodenende; einmalige Credits verfallen nicht.",
+    "subscribe": "Monatlich abonnieren"
   }
 }

@@ -1,11 +1,70 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "genjutsuaigenerator-site",
+  "name": "genjutsu-ai-generator",
+  "account_id": "890529cf303eac850f070097d3aa2d85",
+  "main": "worker/entry.mjs",
   "compatibility_date": "2026-10-01",
-  "compatibility_flags": ["nodejs_compat"],
-  "pages_build_output_dir": "./dist",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "COMMERCE",
+        "class_name": "GenjutsuCommerce"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "GenjutsuCommerce"
+      ]
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "genjutsu-ai-generator-private"
+    }
+  ],
   "vars": {
-    "SITE_ORIGIN": "https://genjutsuaigenerator.com",
-    "SITE_NAME": "Genjutsu AI Generator"
+    "COMMERCE_ENABLED": "true",
+    "GENERATION_ACCEPTED": "true",
+    "GOOGLE_AUTH_ENABLED": "true",
+    "OPERATOR_NAME": "KirooAI",
+    "SUPPORT_EMAIL": "contact@genjutsuaigenerator.com",
+    "MAIL_FROM": "Genjutsu AI by KirooAI <hi@aizombiegenerator.com>",
+    "VIDEO_SOURCE_HOSTS": "tempfile.aiquickdraw.com",
+    "MIN_PROVIDER_CREDITS": "121",
+    "MONTHLY_PRICE_CENTS": "1499",
+    "MONTHLY_VIDEO_CREDITS": "3",
+    "GA_MEASUREMENT_ID": "G-0XT91LGGLK"
+  },
+  "assets": {
+    "directory": "dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "genjutsuaigenerator.com/*",
+      "zone_id": "7b651ae8949256f10bbbf9244f65d359"
+    },
+    {
+      "pattern": "www.genjutsuaigenerator.com/*",
+      "zone_id": "7b651ae8949256f10bbbf9244f65d359"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "*/10 * * * *"
+    ]
+  },
+  "observability": {
+    "enabled": true
   }
 }

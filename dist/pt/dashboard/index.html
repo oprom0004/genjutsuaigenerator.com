@@ -34,7 +34,7 @@
   <meta name="theme-color" content="#08090f">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/genjutsu.css">
+  <link rel="stylesheet" href="/genjutsu.css?v=96b5b0ab085b4d91">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%2308090f' stroke='%236366f1' stroke-width='2'/><circle cx='16' cy='16' r='6' fill='%236366f1'/><circle cx='16' cy='16' r='2' fill='%23ffffff'/><circle cx='16' cy='7' r='2.5' fill='%2306b6d4'/><circle cx='23.8' cy='20.5' r='2.5' fill='%2306b6d4'/><circle cx='8.2' cy='20.5' r='2.5' fill='%2306b6d4'/></svg>">
     <script type="application/ld+json">
 {
@@ -42,7 +42,7 @@
   "@type": "WebSite",
   "name": "Genjutsu AI Generator",
   "url": "https://genjutsuaigenerator.com",
-  "description": "Transforme fotos estáticas em vídeos fluidos com IA. Envie uma foto de retrato, escolha uma dança viral ou golpe e gere um vídeo vertical 9:16 em minutos.",
+  "description": "Envie uma imagem e escolha Hip-Hop ou K-Pop. Crie uma dança de 10 segundos e baixe seu MP4 privado de 720p. Detalhes faciais e movimento podem variar.",
   "inLanguage": "pt"
 }
     </script>
@@ -54,7 +54,7 @@
   "applicationCategory": "MultimediaApplication",
   "operatingSystem": "Web, Cloud",
   "url": "https://genjutsuaigenerator.com",
-  "description": "Transforme fotos estáticas em vídeos fluidos com IA. Envie uma foto de retrato, escolha uma dança viral ou golpe e gere um vídeo vertical 9:16 em minutos.",
+  "description": "Envie uma imagem e escolha Hip-Hop ou K-Pop. Crie uma dança de 10 segundos e baixe seu MP4 privado de 720p. Detalhes faciais e movimento podem variar.",
   "offers": {
     "@type": "Offer",
     "price": "9.99",
@@ -113,7 +113,7 @@
         <!-- User Credit Badge (client updated) -->
         <div class="credits-badge" id="user-credits-badge" style="display: none;">
           <span class="sparkle">✦</span>
-          <span id="header-credits-count">3</span>
+          <span id="header-credits-count">0</span>
           <span class="credits-label">créditos</span>
         </div>
 
@@ -170,7 +170,7 @@
         <div class="dashboard-balance-card">
           <span class="balance-label">Saldo Disponible</span>
           <div class="balance-count">
-            <span class="count-num" id="dashboard-credits-count">3</span>
+            <span class="count-num" id="dashboard-credits-count">0</span>
             <span class="count-unit">créditos</span>
           </div>
           <button type="button" class="btn-primary btn-sm" id="btn-dashboard-add-credits">
@@ -179,6 +179,7 @@
         </div>
       </div>
 
+      <p id="account-status" role="status"></p><div><button type="button" class="btn-secondary" id="btn-resend-verification" hidden>Resend verification</button><button type="button" class="btn-secondary" id="btn-manage-subscription">Manage subscription</button><button type="button" class="btn-ghost" id="btn-signout">Sign out</button><p id="subscription-status"></p></div>
       <!-- Video Library -->
       <div class="dashboard-block">
         <h2 class="block-title">Mis Videos Generados</h2>
@@ -239,8 +240,8 @@
           <ul class="footer-links">
             <li><a href="/pt/#studio">Estúdio</a></li>
             <li><a href="/pt/#showcase">Exemplos</a></li>
-            <li><a href="/pt/#modes">Transferencia de Movimiento IA y Danza Viral</a></li>
-            <li><a href="/pt/#modes">Transformación Anime y Efectos Genjutsu</a></li>
+            <li><a href="/pt/#modes">Pessoas reais</a></li>
+            <li><a href="/pt/#modes">Ilustrações anime</a></li>
             <li><a href="/pt/pricing/">Preços</a></li>
           </ul>
         </div>
@@ -279,7 +280,7 @@
 
       <div class="footer-bottom">
         <p class="copyright">© 2026 Genjutsu AI Generator. All rights reserved. Identity-Locked Character Motion Studio.</p>
-        <p class="credit-protection-note">Si una generación falla por un error técnico del servidor, tu crédito consumido se devuelve inmediatamente a tu saldo. Cero riesgo.</p>
+        <p class="credit-protection-note">Falhas confirmadas devolvem um crédito. Envios incertos são verificados antes de tentar novamente.</p>
       </div>
     </div>
   </footer>
@@ -303,7 +304,8 @@
           <span>o con correo electrónico</span>
         </div>
 
-        <form class="auth-form" id="auth-form" onsubmit="return false;">
+        <label class="text-sm"><input type="checkbox" id="terms-consent"> Concordo com os Termos de Serviço e a Política de Privacidade. <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a></label>
+        <form class="auth-form" id="auth-form">
           <div class="form-group" id="field-name" style="display: none;">
             <label for="input-name">Nombre</label>
             <input type="text" id="input-name" placeholder="Tu nombre" autocomplete="name">
@@ -314,13 +316,14 @@
           </div>
           <div class="form-group">
             <label for="input-password">Contraseña</label>
-            <input type="password" id="input-password" required placeholder="Al menos 8 caracteres" autocomplete="current-password">
+            <input type="password" id="input-password" minlength="12" maxlength="128" required placeholder="Al menos 8 caracteres" autocomplete="current-password">
           </div>
           <button type="submit" class="btn-primary w-full" id="btn-submit-auth">
             Iniciar sesión
           </button>
         </form>
 
+        <button type="button" class="btn-link" id="btn-forgot-password">Esqueceu sua senha?</button>
         <div class="auth-footer-toggle">
           <span id="auth-toggle-label">¿Eres nuevo?</span>
           <button type="button" class="btn-link" id="btn-toggle-auth-mode">Crear cuenta</button>
@@ -328,44 +331,8 @@
       </div>
     </div>
   </div>
-  
-  <div class="modal-overlay" id="payment-modal" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="payment-modal-title">
-    <div class="modal-card payment-card">
-      <button class="modal-close" id="btn-close-payment" aria-label="Fechar">✕</button>
-      <div class="modal-header">
-        <span class="modal-badge">ESTADO DE PAGO STRIPE</span>
-        <h2 class="modal-title" id="payment-modal-title">Confirmando tu compra…</h2>
-        <p class="modal-subtitle" id="payment-pack-subtitle">3 Videos Pack · $17.99</p>
-      </div>
 
-      <div class="payment-body">
-        <div class="simulated-checkout">
-          <div class="checkout-summary">
-            <div class="summary-line">
-              <span id="checkout-item-name">3 Videos Pack</span>
-              <span class="summary-price" id="checkout-item-price">$17.99</span>
-            </div>
-            <div class="summary-line text-sm text-dim">
-              <span>Instant Credits Delivery</span>
-              <span class="text-success">+3 Credits</span>
-            </div>
-            <div class="summary-line guarantee-line">
-              <span class="shield-icon">🛡</span>
-              <span>Garantía de Protección de Crédito: Credits returned if render fails</span>
-            </div>
-          </div>
-
-          <div class="payment-actions">
-            <button type="button" class="btn-primary w-full" id="btn-confirm-checkout">
-              <span>Complete Payment ($17.99)</span>
-            </button>
-            <p class="payment-security-note">256-bit encrypted secure checkout via Stripe</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div id="toast-container" class="toast-container" aria-live="polite"></div>
-  <script type="module" src="/genjutsu.mjs"></script>
+  <script type="module" src="/genjutsu.mjs?v=1145adc225720b77"></script>
 </body>
 </html>

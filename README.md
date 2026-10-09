@@ -1,44 +1,33 @@
-# Genjutsu AI Generator (genjutsuaigenerator.com)
+# Genjutsu AI Generator
 
-High-performance AI motion transfer, dance animation, and character synthesis studio. Turn any portrait, 3D avatar, or anime artwork into identity-locked vertical 9:16 HD videos.
+Production motion-transfer service at https://genjutsuaigenerator.com.
 
-## 🚀 Key Features
+Users upload one character image and choose a 10-second hip-hop or K-pop reference. Kling 2.6 Motion Control produces a 720p MP4. The service supports email verification and Google sign-in, Stripe credit packs and a monthly plan, an independent credit ledger, private media downloads, and read-only reporting in the Hotel administration panel.
 
-- **Hero Studio Generator**: Instant creation studio integrated above the fold on the homepage with 4 sample presets and choreography motions.
-- **Three Creative Pillars**:
-  1. AI Motion Transfer & Viral Dance (TikTok/K-Pop/Hip-Hop)
-  2. Anime Reality Morph & Genjutsu VFX (Cel-shaded lines, eye transitions, domain shifts)
-  3. Cinematic Character Recasting (Live-action movie/ad character replacement)
-- **Aesthetic UI**: Dark cyberpunk luxury palette featuring Electric Indigo (`#6366f1`), Amethyst Violet (`#8b5cf6`), and Cyber Cyan (`#06b6d4`) on Abyssal Obsidian (`#08090f`).
-- **Global SEO & GEO Ready**: 100% text-code separation with complete localization across 6 languages:
-  - 🇺🇸 English (`en`)
-  - 🇯🇵 日本語 (`ja`)
-  - 🇪🇸 Español (`es`)
-  - 🇧🇷 Português (`pt`)
-  - 🇩🇪 Deutsch (`de`)
-  - 🇫🇷 Français (`fr`)
-- **Schema & Structured Data**: `SoftwareApplication`, `WebSite`, `VideoObject`, `FAQPage`, and `Article` JSON-LD schemas.
-- **Credit Protection Guarantee**: Transparent ledger-based credit protection policy.
+## Development
 
-## 🛠️ Development & Build
+Use Node.js 22 or newer:
 
-```bash
-# Install dependencies
-npm install
-
-# Run build (compiles all 60 localized static pages into dist/)
+```sh
+npm ci
 npm run build
-
-# Run integrity & quality checks
 npm run check
-
-# Run automated test suites
 npm test
-
-# Launch local preview server (port 4181)
-npm run preview
 ```
 
-## 📦 Cloudflare Pages Deployment
+The build produces 140 HTML pages in seven languages. `npm run preview` previews static pages; live accounts, billing and generation require the Worker bindings.
 
-Configured via `wrangler.jsonc` with output directory `./dist`.
+## Production deployment
+
+```sh
+npm run build
+npx wrangler deploy --profile oprom0004
+```
+
+`wrangler.jsonc` defines the production Worker, SQLite Durable Object, private R2 bucket, asset binding, domain routes and maintenance schedule. Production traffic is handled by this Worker, including HTML assets, rather than a standalone static Pages deployment.
+
+Secrets must be configured in Cloudflare: the two administration tokens, KIE key, Resend key, Stripe restricted key, webhook signing secret, four price IDs, billing portal configuration, and Google client ID and secret. Never commit `.env`, `.dev.vars` or `.local` files.
+
+One credit pays for one submitted video. Confirmed generation failures return the credit once; ambiguous provider submissions require reconciliation and are not automatically submitted again. Images and generated videos are private and retained for seven days. Monthly credits expire at the billing period end; one-time pack credits have no expiry.
+
+See [production acceptance record](docs/PRODUCTION_2026_10_09.md) for checks, deployment versions, costs and remaining payment limitations.

@@ -11,5 +11,14 @@
     "check": "node scripts/check.mjs",
     "preview": "node scripts/preview.mjs",
     "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@cf-wasm/photon": "^0.4.0",
+    "image-size": "^2.0.4",
+    "jose": "^6.2.12"
+  },
+  "devDependencies": {
+    "wrangler": "^4.125.0",
+    "sharp": "^0.35.5"
   }
 }

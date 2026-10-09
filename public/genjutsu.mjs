@@ -1,121 +1,72 @@
-// ==========================================================================
-// GENJUTSU AI GENERATOR — CLIENT APPLICATION
-// ==========================================================================
-
-const STORAGE_KEY = 'genjutsu_user_state_v1';
-
-// Initial state
-function getInitialState() {
-  return {
-    isLoggedIn: false,
-    userName: 'Creator',
-    userEmail: 'creator@example.com',
-    credits: 3,
-    videos: [
-      {
-        id: 'vid-demo-1',
-        title: 'Street Dancer × Hip-hop groove',
-        charImg: '/media/char-street.webp',
-        videoUrl: '/media/out-street-hiphop.mp4',
-        moveName: 'Hip-Hop Groove',
-        date: '2026-10-06'
-      }
-    ],
-    orders: [
-      {
-        id: 'ORD-7821',
-        packName: '3 Videos Pack (Welcome Bonus)',
-        price: '$17.99',
-        date: '2026-10-06',
-        status: 'Completed'
-      }
-    ]
-  };
+const $=id=>document.getElementById(id),on=(id,event,fn)=>$(id)?.addEventListener(event,fn);
+let account=null,config={},signup=false,charURL='/media/char-street.webp',charFile=null,motion='src-hiphop',activeOrder=null,pollTimer,uploadId=null,generationKey=null;
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const trackingAllowed=()=>navigator.doNotTrack!=='1'&&!navigator.globalPrivacyControl;
+let trafficSource='unrecorded';
+if(trackingAllowed())try{
+ const q=new URLSearchParams(location.search),ref=document.referrer?new URL(document.referrer).hostname:'';
+ const raw=(q.get('utm_source')||ref).toLowerCase();
+ const known=['chatgpt','perplexity','google','bing','youtube','tiktok','instagram','facebook'];
+ trafficSource=sessionStorage.getItem('genjutsu-source')||known.find(s=>raw.includes(s))||(raw?'other':'direct');
+ sessionStorage.setItem('genjutsu-source',trafficSource);
+}catch{}
+function track(event){if(!trackingAllowed())return;let id=crypto.randomUUID();try{const key='genjutsu-event:'+location.pathname+':'+event;id=sessionStorage.getItem(key)||id;sessionStorage.setItem(key,id);}catch{}fetch('/api/analytics/event',{method:'POST',credentials:'same-origin',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({id,event,source:trafficSource})}).catch(()=>{});}
+async function api(path,body,method=body?'POST':'GET'){
+ const r=await fetch(path,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},...(body?{body:JSON.stringify(body)}:{})});
+ const d=await r.json();if(!r.ok)throw Object.assign(Error(d.error||'Request failed.'),{status:r.status});return d;
 }
-
-function loadUserState() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch (e) {
-    console.error('Failed to load user state from localStorage', e);
-  }
-  const init = getInitialState();
-  saveUserState(init);
-  return init;
+function busy(fn){return async e=>{const b=e?.currentTarget;b?.setAttribute('aria-busy','true');if(b)b.disabled=true;try{await fn(e);}catch(error){showToast(error.message,7000);}finally{b?.removeAttribute('aria-busy');if(b)b.disabled=false;}};}
+function modal(open){if($('auth-modal'))$('auth-modal').style.display=open?'flex':'none';}
+async function refresh(){account=await api('/api/account?source='+encodeURIComponent(trafficSource));const logged=account.authenticated;
+ if($('btn-signout'))$('btn-signout').hidden=!logged;
+ if($('btn-manage-subscription'))$('btn-manage-subscription').hidden=!logged||!(account.subscriptions||[]).length;
+ for(const id of ['header-credits-count','dashboard-credits-count'])if($(id))$(id).textContent=account.credits||0;
+ if($('btn-auth-trigger'))$('btn-auth-trigger').style.display=logged?'none':'inline-flex';
+ if($('user-credits-badge'))$('user-credits-badge').style.display=logged?'inline-flex':'none';
+ if($('btn-user-dashboard')){$('btn-user-dashboard').style.display=logged?'flex':'none';$('btn-user-dashboard').title=account.user?.email||'My account';}
+ if($('account-status'))$('account-status').textContent=logged?(account.user.email+(account.emailVerified?'':' — Verify your email to continue.')):'Sign in to view your videos and purchases.';
+ if($('btn-resend-verification'))$('btn-resend-verification').hidden=!logged||account.emailVerified;
+ const grid=$('user-videos-grid');if(grid){grid.replaceChildren();for(const order of account.orders||[]){const card=document.createElement('div');card.className='showcase-card';const title=document.createElement('p');title.textContent=(({'src-hiphop':'Hip-hop','src-kpop':'K-pop'})[order.world]||order.world)+' · '+(({'success':'Ready','rendering':'Generating','queued':'Queued','expired':'Expired','refunded':'Credit returned'})[order.state]||order.state);card.append(title);if(order.state==='success'){const video=document.createElement('video');video.src='/api/video/tasks/'+order.id+'/download';video.controls=true;video.playsInline=true;video.style.width='100%';card.append(video);const link=document.createElement('a');link.href=video.src;link.download='genjutsu-'+order.id+'.mp4';link.textContent='Download';link.className='btn-primary';card.append(link);}else if(['queued','preparing','rendering','refund_pending','submission_unknown'].includes(order.state)){const b=document.createElement('button');b.className='btn-secondary';b.textContent='View status';b.addEventListener('click',busy(()=>watch(order.id)));card.append(b);}if(['success','expired','refunded'].includes(order.state)){const b=document.createElement('button');b.className='btn-secondary';b.textContent='Delete';b.addEventListener('click',busy(async()=>{await api('/api/video/tasks/'+order.id,null,'DELETE');await refresh();}));card.append(b);}grid.append(card);}if(!grid.childNodes.length)grid.textContent=logged?'No videos yet.':'Sign in to view your videos.';}
+ if($('user-orders-body'))$('user-orders-body').innerHTML=(account.purchases||[]).map(p=>`<tr><td>${esc(p.id)}</td><td>${p.credits} videos</td><td>${p.created?esc(new Date(p.created).toLocaleDateString()):'—'}</td><td>$${(p.amount/100).toFixed(2)}</td><td>${esc(p.state)}</td></tr>`).join('')||'<tr><td colspan="5">No purchases yet.</td></tr>';
+ if($('subscription-status'))$('subscription-status').textContent=(account.subscriptions||[]).map(s=>s.status+(s.cancel_at_end?' — Renewal cancelled':'')).join(', ')||'No monthly subscription.';
+ return account;
 }
-
-function saveUserState(state) {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  } catch (e) {
-    console.error('Failed to save user state to localStorage', e);
-  }
+async function checkout(planId){await refresh();if(!account.authenticated){modal(true);return;}const d=await api('/api/credits/checkout',{planId,requestKey:crypto.randomUUID()});if(!/^https:\/\/checkout\.stripe\.com\//.test(d.url))throw Error('Invalid checkout URL.');location.assign(d.url);}
+function setCharacter(url,file=null){charURL=url;charFile=file;uploadId=null;generationKey=null;if($('preview-char-img'))$('preview-char-img').src=url;if($('dropzone-empty'))$('dropzone-empty').style.display='none';if($('dropzone-preview'))$('dropzone-preview').style.display='flex';if($('preview-char-label'))$('preview-char-label').textContent=file?.name||'Selected character';}
+function chooseFile(file){if(!file)return;if(!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size>8*1024*1024)throw Error('Choose a JPEG, PNG or WebP image up to 8 MB.');if(charURL.startsWith('blob:'))URL.revokeObjectURL(charURL);setCharacter(URL.createObjectURL(file),file);track('select_photo');}
+async function generate(){await refresh();if(!account.authenticated){modal(true);return;}if(!$('photo-consent')?.checked)throw Error('Confirm you have permission to use this character image.');if(!account.emailVerified)throw Error('Verify your email from your account first.');if(!account.credits){location.assign('/pricing/');return;}
+ if(!config.generationEnabled)throw Error('Generation is temporarily unavailable.');
+ if(!uploadId){const blob=charFile||await(await fetch(charURL)).blob();const data=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result.split(',')[1]);reader.onerror=reject;reader.readAsDataURL(blob);});uploadId=(await api('/api/storage/upload',{role:'human',data})).id;}
+ generationKey||=crypto.randomUUID();const result=await api('/api/video/generate',{humanId:uploadId,world:motion,consent:true,requestKey:generationKey});activeOrder=result.id;await watch(result.id);await refresh();
 }
-
-// -------------------------------------------------------------
-// Toast Notifications
-// -------------------------------------------------------------
-export function showToast(message, duration = 3000) {
-  const container = document.getElementById('toast-container');
-  if (!container) return;
-  const toast = document.createElement('div');
-  toast.className = 'toast';
-  toast.textContent = message;
-  container.appendChild(toast);
-  setTimeout(() => {
-    toast.style.opacity = '0';
-    toast.style.transition = 'opacity 0.3s ease';
-    setTimeout(() => toast.remove(), 300);
-  }, duration);
+async function watch(id){clearTimeout(pollTimer);const order=await api('/api/video/tasks/'+id);activeOrder=id;
+ if(!$('generator-workspace')){showToast(order.error||'Video status: '+order.state);return;}
+ if($('generator-workspace'))$('generator-workspace').style.display='none';if($('generator-progress'))$('generator-progress').style.display='block';
+ if($('progress-status-title'))$('progress-status-title').textContent=({queued:'Queued',preparing:'Preparing your references',rendering:'Generating your video',submission_unknown:'Submission under review',refunded:'Credit returned',refund_pending:'Returning your credit',expired:'Video expired',success:'Video ready'})[order.state]||order.state;
+ if($('progress-status-sub'))$('progress-status-sub').textContent=order.error||'Your task is saved. You can return to your account to check it later.';
+ if($('progress-percent'))$('progress-percent').textContent='';if($('progress-bar-fill'))$('progress-bar-fill').style.width='100%';
+ if(order.state==='success'&&$('result-video')){if($('generator-progress'))$('generator-progress').style.display='none';$('generator-result').style.display='block';$('result-video-src').src=order.download;$('result-video').removeAttribute('poster');$('result-video').load();$('btn-download-result').href=order.download;}
+ else if(['queued','preparing','rendering','refund_pending'].includes(order.state))pollTimer=setTimeout(()=>watch(id).catch(e=>showToast(e.message)),12000);
 }
-
-// -------------------------------------------------------------
-// Main Application Lifecycle
-// -------------------------------------------------------------
-document.addEventListener('DOMContentLoaded', () => {
-  let userState = loadUserState();
-
-  // Navigation & Dropdowns
-  initNav();
-  initAuthModal(userState);
-  initPaymentModal(userState);
-  updateUserUI(userState);
-
-  // Hero Generator
-  initGenerator(userState);
-
-  // Showcase
-  initShowcase();
-
-  // Dashboard (if on dashboard page)
-  if (document.getElementById('user-videos-grid')) {
-    initDashboard(userState);
-  }
-
-  // Copy template buttons on article pages
-  document.querySelectorAll('.btn-copy-template').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const prompt = btn.getAttribute('data-prompt');
-      if (prompt) {
-        navigator.clipboard.writeText(prompt).then(() => {
-          const originalText = btn.textContent;
-          btn.textContent = 'Copied!';
-          showToast('Prompt copied to clipboard!');
-          setTimeout(() => {
-            btn.textContent = originalText;
-          }, 2000);
-        }).catch(() => {
-          showToast('Failed to copy prompt.');
-        });
-      }
-    });
-  });
+document.addEventListener('DOMContentLoaded',async()=>{
+ track('page_view');
+ document.addEventListener('click',e=>{const a=e.target.closest('a');if(a?.hash==='#showcase')track('see_examples');if(a?.href.includes('/download'))track('download_video');if(e.target.closest('#btn-copy-caption'))track('copy_caption');});
+ initNav();initShowcase();on('btn-auth-trigger','click',()=>modal(true));on('btn-close-auth','click',()=>modal(false));on('auth-modal','click',e=>{if(e.target===$('auth-modal'))modal(false);});document.addEventListener('keydown',e=>{if(e.key==='Escape')modal(false);});
+ on('btn-toggle-auth-mode','click',()=>{signup=!signup;$('auth-modal-title').textContent=signup?'Create your account':'Welcome back';$('btn-submit-auth').textContent=signup?'Create account':'Sign in';$('btn-toggle-auth-mode').textContent=signup?'Sign in':'Create account';$('input-password').autocomplete=signup?'new-password':'current-password';});
+ on('auth-form','submit',busy(async e=>{e.preventDefault();await api('/api/account/'+(signup?'signup':'login'),{email:$('input-email').value,password:$('input-password').value,termsAccepted:$('terms-consent').checked});modal(false);await refresh();showToast(account.emailVerified?'Signed in.':'Check your inbox to verify your email.',7000);}));
+ on('btn-oauth-google','click',busy(async()=>{const d=await api('/api/auth/google/start',{termsAccepted:$('terms-consent').checked});location.assign(d.url);}));
+ on('btn-forgot-password','click',busy(async()=>{const d=await api('/api/account/request-reset',{email:$('input-email').value});showToast(d.message,7000);}));
+ on('btn-resend-verification','click',busy(async()=>{const d=await api('/api/account/resend-verification',{});showToast(d.message||'Verified');}));
+ on('btn-signout','click',busy(async()=>{await api('/api/account/logout',{});await refresh();}));on('btn-manage-subscription','click',busy(async()=>{const d=await api('/api/credits/portal',{});if(!/^https:\/\/billing\.stripe\.com\//.test(d.url))throw Error('Invalid billing URL');location.assign(d.url);}));
+ document.querySelectorAll('.btn-buy-pack').forEach((b,i)=>b.addEventListener('click',busy(()=>checkout(b.dataset.planId||['video_1','video_3','video_10'][i]))));on('btn-dashboard-add-credits','click',()=>location.assign('/pricing/'));
+ document.querySelectorAll('.preset-btn').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.preset-btn').forEach(a=>a.classList.remove('selected'));b.classList.add('selected');setCharacter(b.dataset.charImg);}));document.querySelectorAll('.move-card').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.move-card').forEach(a=>a.classList.remove('selected'));b.classList.add('selected');motion=b.dataset.moveId;generationKey=null;}));
+ on('char-dropzone','click',()=>$('char-file-input').click());on('char-file-input','change',busy(e=>chooseFile(e.target.files[0])));on('char-dropzone','dragover',e=>e.preventDefault());on('char-dropzone','drop',busy(e=>{e.preventDefault();chooseFile(e.dataTransfer.files[0]);}));
+ on('btn-start-generate','click',busy(generate));on('btn-reset-studio','click',()=>{clearTimeout(pollTimer);$('generator-result').style.display='none';$('generator-progress').style.display='none';$('generator-workspace').style.display='block';uploadId=null;generationKey=null;});on('btn-toggle-sound','click',()=>{$('result-video').muted=!$('result-video').muted;});
+ on('tab-show-output','click',()=>{if(activeOrder){$('result-video-src').src='/api/video/tasks/'+activeOrder+'/download';$('result-video').load();}});on('tab-show-source','click',()=>{$('result-video-src').src='/media/'+motion+'.mp4';$('result-video').load();});
+ on('btn-copy-caption','click',busy(async()=>{await navigator.clipboard.writeText('Made with Genjutsu AI #AIDance #MotionTransfer');showToast('Caption copied.');}));
+ try{config=await api('/api/config');if($('btn-oauth-google'))$('btn-oauth-google').hidden=!config.googleEnabled;await refresh();const q=new URLSearchParams(location.search);if(q.has('verify')){await api('/api/account/verify',{token:q.get('verify')});history.replaceState(null,'',location.pathname);await refresh();showToast('Email verified.');}if(q.has('reset')){const form=document.createElement('form');form.innerHTML='<label>New password (12–128 characters)<input type="password" minlength="12" maxlength="128" required autocomplete="new-password"></label><button type="submit" class="btn-primary">Update password</button>';form.addEventListener('submit',busy(async e=>{e.preventDefault();const d=await api('/api/account/reset',{token:q.get('reset'),password:form.querySelector('input').value});history.replaceState(null,'',location.pathname);form.remove();showToast(d.message);modal(true);}));$('account-status')?.after(form);}if(q.has('order')&&account.authenticated)await watch(q.get('order'));if(q.has('oauth_error')||q.has('google_error'))showToast('Google sign-in could not finish. Please try again.');if(q.get('billing')==='success')showToast('Your balance updates after payment confirmation.');if(q.get('billing')==='cancelled')showToast('Checkout cancelled. No new credits were added.');}catch(e){showToast(e.message,7000);}
 });
 
-// -------------------------------------------------------------
-// Nav & Dropdowns
-// -------------------------------------------------------------
 function initNav() {
   const langBtn = document.getElementById('lang-btn');
   const langDropdown = langBtn?.closest('.lang-dropdown');
@@ -155,491 +106,7 @@ function initNav() {
   }
 }
 
-// -------------------------------------------------------------
-// User Auth & State UI
-// -------------------------------------------------------------
-function updateUserUI(state) {
-  const creditsBadge = document.getElementById('user-credits-badge');
-  const headerCreditsCount = document.getElementById('header-credits-count');
-  const btnAuthTrigger = document.getElementById('btn-auth-trigger');
-  const btnUserDashboard = document.getElementById('btn-user-dashboard');
-  const dashboardCreditsCount = document.getElementById('dashboard-credits-count');
 
-  if (headerCreditsCount) headerCreditsCount.textContent = state.credits;
-  if (dashboardCreditsCount) dashboardCreditsCount.textContent = state.credits;
-
-  if (state.isLoggedIn) {
-    if (creditsBadge) creditsBadge.style.display = 'inline-flex';
-    if (btnAuthTrigger) btnAuthTrigger.style.display = 'none';
-    if (btnUserDashboard) {
-      btnUserDashboard.style.display = 'flex';
-      btnUserDashboard.querySelector('.user-initial').textContent = (state.userName || 'U')[0].toUpperCase();
-    }
-  } else {
-    if (creditsBadge) creditsBadge.style.display = 'none';
-    if (btnAuthTrigger) btnAuthTrigger.style.display = 'inline-flex';
-    if (btnUserDashboard) btnUserDashboard.style.display = 'none';
-  }
-}
-
-function initAuthModal(state) {
-  const modal = document.getElementById('auth-modal');
-  const btnTrigger = document.getElementById('btn-auth-trigger');
-  const btnClose = document.getElementById('btn-close-auth');
-  const authForm = document.getElementById('auth-form');
-  const btnGoogle = document.getElementById('btn-oauth-google');
-  const btnToggleAuth = document.getElementById('btn-toggle-auth-mode');
-  const fieldName = document.getElementById('field-name');
-  const modalTitle = document.getElementById('auth-modal-title');
-  const btnSubmit = document.getElementById('btn-submit-auth');
-  const authToggleLabel = document.getElementById('auth-toggle-label');
-
-  let isSignUpMode = false;
-
-  function openAuth() {
-    if (modal) modal.style.display = 'flex';
-  }
-  function closeAuth() {
-    if (modal) modal.style.display = 'none';
-  }
-
-  if (btnTrigger) btnTrigger.addEventListener('click', openAuth);
-  if (btnClose) btnClose.addEventListener('click', closeAuth);
-
-  if (modal) {
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) closeAuth();
-    });
-  }
-
-  if (btnToggleAuth) {
-    btnToggleAuth.addEventListener('click', () => {
-      isSignUpMode = !isSignUpMode;
-      if (isSignUpMode) {
-        if (fieldName) fieldName.style.display = 'flex';
-        if (modalTitle) modalTitle.textContent = 'Create your account';
-        if (btnSubmit) btnSubmit.textContent = 'Create account';
-        if (authToggleLabel) authToggleLabel.textContent = 'Already have an account?';
-        btnToggleAuth.textContent = 'Sign in';
-      } else {
-        if (fieldName) fieldName.style.display = 'none';
-        if (modalTitle) modalTitle.textContent = 'Welcome back';
-        if (btnSubmit) btnSubmit.textContent = 'Sign in';
-        if (authToggleLabel) authToggleLabel.textContent = 'New here?';
-        btnToggleAuth.textContent = 'Create account';
-      }
-    });
-  }
-
-  function handleLogin(email, name) {
-    state.isLoggedIn = true;
-    state.userEmail = email || 'creator@example.com';
-    state.userName = name || 'Creator';
-    saveUserState(state);
-    updateUserUI(state);
-    closeAuth();
-    showToast(`Welcome back, ${state.userName}!`);
-  }
-
-  if (authForm) {
-    authForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const email = document.getElementById('input-email')?.value;
-      const name = document.getElementById('input-name')?.value;
-      handleLogin(email, name);
-    });
-  }
-
-  if (btnGoogle) {
-    btnGoogle.addEventListener('click', () => {
-      handleLogin('google.user@gmail.com', 'Google User');
-    });
-  }
-}
-
-// -------------------------------------------------------------
-// Payment Modal & Purchase Simulation
-// -------------------------------------------------------------
-function initPaymentModal(state) {
-  const modal = document.getElementById('payment-modal');
-  const btnClose = document.getElementById('btn-close-payment');
-  const itemName = document.getElementById('checkout-item-name');
-  const itemPrice = document.getElementById('checkout-item-price');
-  const packSubtitle = document.getElementById('payment-pack-subtitle');
-  const btnConfirm = document.getElementById('btn-confirm-checkout');
-
-  let currentPack = {
-    name: '3 Videos Pack',
-    price: '$17.99',
-    credits: 3
-  };
-
-  function openPayment(name, price) {
-    currentPack.name = name || '3 Videos Pack';
-    currentPack.price = price || '$17.99';
-    if (name.includes('1 Video')) currentPack.credits = 1;
-    else if (name.includes('10 Videos')) currentPack.credits = 10;
-    else currentPack.credits = 3;
-
-    if (itemName) itemName.textContent = currentPack.name;
-    if (itemPrice) itemPrice.textContent = currentPack.price;
-    if (packSubtitle) packSubtitle.textContent = `${currentPack.name} · ${currentPack.price}`;
-    if (btnConfirm) btnConfirm.innerHTML = `<span>Complete Payment (${currentPack.price})</span>`;
-
-    if (modal) modal.style.display = 'flex';
-  }
-
-  function closePayment() {
-    if (modal) modal.style.display = 'none';
-  }
-
-  document.querySelectorAll('.btn-buy-pack').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const name = btn.getAttribute('data-pack-name');
-      const price = btn.getAttribute('data-pack-price');
-      openPayment(name, price);
-    });
-  });
-
-  const btnDashboardAdd = document.getElementById('btn-dashboard-add-credits');
-  if (btnDashboardAdd) {
-    btnDashboardAdd.addEventListener('click', () => {
-      openPayment('3 Videos Pack', '$17.99');
-    });
-  }
-
-  if (btnClose) btnClose.addEventListener('click', closePayment);
-  if (modal) {
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) closePayment();
-    });
-  }
-
-  if (btnConfirm) {
-    btnConfirm.addEventListener('click', () => {
-      btnConfirm.innerHTML = `<span>Processing Stripe Checkout…</span>`;
-      btnConfirm.disabled = true;
-
-      setTimeout(() => {
-        state.credits += currentPack.credits;
-        state.isLoggedIn = true;
-        const newOrder = {
-          id: 'ORD-' + Math.floor(1000 + Math.random() * 9000),
-          packName: currentPack.name,
-          price: currentPack.price,
-          date: new Date().toISOString().split('T')[0],
-          status: 'Completed'
-        };
-        state.orders.unshift(newOrder);
-        saveUserState(state);
-        updateUserUI(state);
-        btnConfirm.disabled = false;
-        closePayment();
-        showToast(`Success! +${currentPack.credits} video credits added to your balance.`);
-
-        if (document.getElementById('user-videos-grid')) {
-          initDashboard(state);
-        }
-      }, 1200);
-    });
-  }
-}
-
-// -------------------------------------------------------------
-// HERO GENERATOR STUDIO INTERACTION
-// -------------------------------------------------------------
-function initGenerator(state) {
-  const workspace = document.getElementById('generator-workspace');
-  const progressScreen = document.getElementById('generator-progress');
-  const resultScreen = document.getElementById('generator-result');
-
-  if (!workspace || !progressScreen || !resultScreen) return;
-
-  const dropzone = document.getElementById('char-dropzone');
-  const fileInput = document.getElementById('char-file-input');
-  const dropzoneEmpty = document.getElementById('dropzone-empty');
-  const dropzonePreview = document.getElementById('dropzone-preview');
-  const previewCharImg = document.getElementById('preview-char-img');
-  const previewCharLabel = document.getElementById('preview-char-label');
-
-  const presetBtns = document.querySelectorAll('.preset-btn');
-  const moveCards = document.querySelectorAll('.move-card');
-  const btnStartGen = document.getElementById('btn-start-generate');
-
-  const progressTitle = document.getElementById('progress-status-title');
-  const progressSub = document.getElementById('progress-status-sub');
-  const progressBar = document.getElementById('progress-bar-fill');
-  const progressPercent = document.getElementById('progress-percent');
-
-  const resultVideo = document.getElementById('result-video');
-  const resultVideoSrc = document.getElementById('result-video-src');
-  const btnToggleSound = document.getElementById('btn-toggle-sound');
-  const tabShowOutput = document.getElementById('tab-show-output');
-  const tabShowSource = document.getElementById('tab-show-source');
-  const btnDownloadResult = document.getElementById('btn-download-result');
-  const btnCopyCaption = document.getElementById('btn-copy-caption');
-  const btnResetStudio = document.getElementById('btn-reset-studio');
-
-  // Mapping of combinations to output files
-  const renderPairings = {
-    'char-street:src-hiphop': {
-      outVideo: '/media/out-street-hiphop.mp4',
-      outPoster: '/media/out-street-hiphop.webp',
-      srcVideo: '/media/src-hiphop.mp4',
-      title: 'Street Dancer × Hip-hop groove'
-    },
-    'char-ninja:src-kpop': {
-      outVideo: '/media/out-ninja-kpop.mp4',
-      outPoster: '/media/out-ninja-kpop.webp',
-      srcVideo: '/media/src-kpop.mp4',
-      title: 'Cyber Ninja × K-pop flow'
-    },
-    'char-anime:src-kpop': {
-      outVideo: '/media/out-anime-kpop.mp4',
-      outPoster: '/media/out-anime-kpop.webp',
-      srcVideo: '/media/src-kpop.mp4',
-      title: 'Anime Hero × K-pop flow'
-    },
-    'char-suit:src-hiphop': {
-      outVideo: '/media/out-suit-hiphop.mp4',
-      outPoster: '/media/out-suit-hiphop.webp',
-      srcVideo: '/media/src-hiphop.mp4',
-      title: 'Classic Suit × Hip-hop groove'
-    }
-  };
-
-  // State
-  let selectedChar = {
-    id: 'char-street',
-    name: 'Street Dancer',
-    img: '/media/char-street.webp'
-  };
-  let selectedMove = {
-    id: 'src-hiphop',
-    name: 'Hip-Hop Groove',
-    video: '/media/src-hiphop.mp4'
-  };
-
-  // Preset Selection
-  presetBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      presetBtns.forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      selectedChar = {
-        id: btn.getAttribute('data-char-id'),
-        name: btn.getAttribute('data-char-name'),
-        img: btn.getAttribute('data-char-img')
-      };
-
-      // Update dropzone preview
-      if (dropzoneEmpty && dropzonePreview && previewCharImg && previewCharLabel) {
-        previewCharImg.src = selectedChar.img;
-        previewCharLabel.textContent = selectedChar.name;
-        dropzoneEmpty.style.display = 'none';
-        dropzonePreview.style.display = 'flex';
-      }
-    });
-  });
-
-  // Custom File Dropzone
-  if (dropzone && fileInput) {
-    dropzone.addEventListener('click', () => fileInput.click());
-
-    fileInput.addEventListener('change', (e) => {
-      const file = e.target.files?.[0];
-      if (file) handleCustomPhoto(file);
-    });
-
-    dropzone.addEventListener('dragover', (e) => {
-      e.preventDefault();
-      dropzone.classList.add('drag-over');
-    });
-    dropzone.addEventListener('dragleave', () => {
-      dropzone.classList.remove('drag-over');
-    });
-    dropzone.addEventListener('drop', (e) => {
-      e.preventDefault();
-      dropzone.classList.remove('drag-over');
-      const file = e.dataTransfer.files?.[0];
-      if (file && file.type.startsWith('image/')) handleCustomPhoto(file);
-    });
-  }
-
-  function handleCustomPhoto(file) {
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      selectedChar = {
-        id: 'char-custom',
-        name: file.name.replace(/\.[^/.]+$/, ''),
-        img: ev.target.result
-      };
-      presetBtns.forEach(b => b.classList.remove('selected'));
-      if (dropzoneEmpty && dropzonePreview && previewCharImg && previewCharLabel) {
-        previewCharImg.src = selectedChar.img;
-        previewCharLabel.textContent = selectedChar.name;
-        dropzoneEmpty.style.display = 'none';
-        dropzonePreview.style.display = 'flex';
-      }
-      showToast('Custom character photo loaded.');
-    };
-    reader.readAsDataURL(file);
-  }
-
-  // Move Selection
-  moveCards.forEach(card => {
-    card.addEventListener('click', () => {
-      moveCards.forEach(c => c.classList.remove('selected'));
-      card.classList.add('selected');
-      selectedMove = {
-        id: card.getAttribute('data-move-id'),
-        name: card.getAttribute('data-move-name'),
-        video: card.getAttribute('data-move-video')
-      };
-    });
-  });
-
-  // Resolve best matching output video
-  function resolveOutput() {
-    const key = `${selectedChar.id}:${selectedMove.id}`;
-    if (renderPairings[key]) return renderPairings[key];
-
-    // Fallbacks
-    if (selectedChar.id === 'char-ninja') return renderPairings['char-ninja:src-kpop'];
-    if (selectedChar.id === 'char-anime') return renderPairings['char-anime:src-kpop'];
-    if (selectedChar.id === 'char-suit') return renderPairings['char-suit:src-hiphop'];
-    return renderPairings['char-street:src-hiphop'];
-  }
-
-  // Generation trigger
-  btnStartGen.addEventListener('click', () => {
-    if (state.credits < 1) {
-      showToast('You have 0 credits left. Please add credits to continue.');
-      const btnBuy = document.querySelector('.btn-buy-pack');
-      if (btnBuy) btnBuy.click();
-      return;
-    }
-
-    // Deduct credit
-    state.credits -= 1;
-    saveUserState(state);
-    updateUserUI(state);
-
-    // Switch view to progress
-    workspace.style.display = 'none';
-    progressScreen.style.display = 'block';
-    resultScreen.style.display = 'none';
-
-    // Step simulation
-    const steps = [
-      { pct: 20, title: 'Extracting 3D Pose Geometry…', sub: 'Analyzing full-body joints and facial landmarks' },
-      { pct: 55, title: 'Synthesizing Full-Body Dynamics…', sub: 'Applying choreography timing and fluid clothing physics' },
-      { pct: 85, title: 'Preserving Identity & Facial Mesh…', sub: 'Locking features across 360-degree rotations' },
-      { pct: 100, title: 'Finalizing 9:16 HD Render…', sub: 'Packaging high-definition MP4 with audio sync' }
-    ];
-
-    let currentStepIdx = 0;
-    const interval = setInterval(() => {
-      currentStepIdx++;
-      if (currentStepIdx < steps.length) {
-        const s = steps[currentStepIdx];
-        if (progressBar) progressBar.style.width = `${s.pct}%`;
-        if (progressPercent) progressPercent.textContent = `${s.pct}%`;
-        if (progressTitle) progressTitle.textContent = s.title;
-        if (progressSub) progressSub.textContent = s.sub;
-      } else {
-        clearInterval(interval);
-        finishGeneration();
-      }
-    }, 700);
-  });
-
-  function finishGeneration() {
-    const output = resolveOutput();
-
-    // Save to user video history
-    const newVideo = {
-      id: 'vid-' + Date.now(),
-      title: `${selectedChar.name} × ${selectedMove.name}`,
-      charImg: selectedChar.img,
-      videoUrl: output.outVideo,
-      moveName: selectedMove.name,
-      date: new Date().toISOString().split('T')[0]
-    };
-    state.videos.unshift(newVideo);
-    saveUserState(state);
-
-    // Setup result screen
-    if (resultVideo && resultVideoSrc) {
-      resultVideoSrc.src = output.outVideo;
-      resultVideo.poster = output.outPoster;
-      resultVideo.load();
-      resultVideo.play().catch(() => {});
-    }
-
-    if (btnDownloadResult) {
-      btnDownloadResult.href = output.outVideo;
-      btnDownloadResult.setAttribute('download', `${selectedChar.id}-${selectedMove.id}.mp4`);
-    }
-
-    progressScreen.style.display = 'none';
-    resultScreen.style.display = 'block';
-    showToast('Generation complete! 9:16 HD video is ready.');
-  }
-
-  // Sound toggle
-  if (btnToggleSound && resultVideo) {
-    btnToggleSound.addEventListener('click', () => {
-      resultVideo.muted = !resultVideo.muted;
-      btnToggleSound.textContent = resultVideo.muted ? '🔇' : '🔊';
-    });
-  }
-
-  // Compare Tab Switcher
-  if (tabShowOutput && tabShowSource && resultVideo && resultVideoSrc) {
-    tabShowOutput.addEventListener('click', () => {
-      tabShowOutput.classList.add('active');
-      tabShowSource.classList.remove('active');
-      const output = resolveOutput();
-      resultVideoSrc.src = output.outVideo;
-      resultVideo.load();
-      resultVideo.play().catch(() => {});
-    });
-
-    tabShowSource.addEventListener('click', () => {
-      tabShowSource.classList.add('active');
-      tabShowOutput.classList.remove('active');
-      const output = resolveOutput();
-      resultVideoSrc.src = output.srcVideo;
-      resultVideo.load();
-      resultVideo.play().catch(() => {});
-    });
-  }
-
-  // Copy caption
-  if (btnCopyCaption) {
-    btnCopyCaption.addEventListener('click', () => {
-      const caption = `I brought this character to life using Genjutsu AI motion transfer! 🕺✨ #genjutsuai #aimotiontransfer #danceai #viral`;
-      navigator.clipboard.writeText(caption).then(() => {
-        showToast('Caption copied to clipboard!');
-      }).catch(() => {
-        showToast('Failed to copy caption.');
-      });
-    });
-  }
-
-  // Reset studio
-  if (btnResetStudio) {
-    btnResetStudio.addEventListener('click', () => {
-      resultScreen.style.display = 'none';
-      progressScreen.style.display = 'none';
-      workspace.style.display = 'block';
-    });
-  }
-}
-
-// -------------------------------------------------------------
-// SHOWCASE INTERACTIVITY
-// -------------------------------------------------------------
 function initShowcase() {
   const showcaseCards = document.querySelectorAll('.showcase-card');
 
@@ -719,74 +186,17 @@ function initShowcase() {
   });
 }
 
-// -------------------------------------------------------------
-// DASHBOARD VIEW
-// -------------------------------------------------------------
-function initDashboard(state) {
-  const videosGrid = document.getElementById('user-videos-grid');
-  const ordersBody = document.getElementById('user-orders-body');
-  const emptyState = document.getElementById('empty-videos-state');
 
-  if (videosGrid) {
-    if (state.videos && state.videos.length > 0) {
-      if (emptyState) emptyState.style.display = 'none';
-
-      videosGrid.innerHTML = state.videos.map(v => `
-        <div class="showcase-card user-video-card" data-video-id="${v.id}">
-          <div class="showcase-video-box">
-            <video class="showcase-video" loop muted playsinline autoplay controls>
-              <source src="${v.videoUrl}" type="video/mp4">
-            </video>
-          </div>
-          <div class="showcase-meta">
-            <h4 class="showcase-title">${escapeHtml(v.title)}</h4>
-            <p class="showcase-desc text-dim text-sm">${v.date} · 9:16 HD MP4</p>
-            <div class="showcase-footer">
-              <a href="${v.videoUrl}" download class="btn-primary btn-sm">Download</a>
-              <button type="button" class="btn-ghost btn-sm btn-delete-video" data-video-id="${v.id}">Delete</button>
-            </div>
-          </div>
-        </div>
-      `).join('');
-
-      // Delete handler
-      videosGrid.querySelectorAll('.btn-delete-video').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const id = btn.getAttribute('data-video-id');
-          if (confirm('Delete this video from your account?')) {
-            state.videos = state.videos.filter(item => item.id !== id);
-            saveUserState(state);
-            initDashboard(state);
-            showToast('Video removed.');
-          }
-        });
-      });
-    } else {
-      if (emptyState) emptyState.style.display = 'block';
-    }
-  }
-
-  if (ordersBody) {
-    if (state.orders && state.orders.length > 0) {
-      ordersBody.innerHTML = state.orders.map(o => `
-        <tr>
-          <td><code>${o.id}</code></td>
-          <td><strong>${escapeHtml(o.packName)}</strong></td>
-          <td>${o.date}</td>
-          <td>${o.price}</td>
-          <td><span class="badge-success">${o.status}</span></td>
-        </tr>
-      `).join('');
-    }
-  }
-}
-
-function escapeHtml(str) {
-  if (str == null) return '';
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
+export function showToast(message, duration = 3000) {
+  const container = document.getElementById('toast-container');
+  if (!container) return;
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = message;
+  container.appendChild(toast);
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transition = 'opacity 0.3s ease';
+    setTimeout(() => toast.remove(), 300);
+  }, duration);
 }
