@@ -250,8 +250,8 @@
       "packs": [
         {
           "name": "1 Video Pack",
-          "price": "$9.99",
-          "unit": "$9.99/video",
+          "price": "$6.99",
+          "unit": "$6.99/video",
           "desc": "1 video credit · Never expires",
           "popular": false
         },

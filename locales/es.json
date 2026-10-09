@@ -250,8 +250,8 @@
       "packs": [
         {
           "name": "Paquete 1 Video",
-          "price": "$9.99",
-          "unit": "$9.99/video",
+          "price": "$6.99",
+          "unit": "$6.99/video",
           "desc": "1 crédito · Sin caducidad",
           "popular": false
         },

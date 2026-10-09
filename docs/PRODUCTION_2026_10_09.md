@@ -9,7 +9,7 @@ Production: https://genjutsuaigenerator.com
 - Private R2 bucket `genjutsu-ai-generator-private`; maintenance every ten minutes.
 - Email accounts with verification, reset and HttpOnly sessions; Google OAuth with PKCE/state/nonce and verified email validation.
 - One image plus one fixed ten-second motion reference; Kling 2.6 Motion Control, 720p. Hip-hop and K-pop are the two supported references.
-- Stripe: one video $9.99, three $17.99, ten $49.99, monthly three credits $14.99. Monthly credits expire at the billing period end; pack credits do not expire.
+- Stripe: one video $6.99, three $17.99, ten $49.99, monthly three credits $14.99. Monthly credits expire at the billing period end; pack credits do not expire.
 - Signed payment events, idempotent grants/reservations, confirmed-failure refunds and ambiguous-submission reconciliation.
 - Private outputs and uploads expire after seven days. Authenticated byte-range downloads support seeking; output redirects to unapproved hosts are rejected.
 - Central Hotel admin now exposes actual users, purchases, subscriptions, credit batches, spends and video tasks through a read-only service binding and separate read credential.
@@ -32,6 +32,8 @@ Production: https://genjutsuaigenerator.com
 Build: 140 pages, seven languages. Integrity check passed. All 22 tests passed, including signed callbacks, invoice idempotency/amount checks, monthly expiry, cancellation preserving current credits, unknown provider submission safety, refund once, media ownership, read-only admin isolation and private output redirect boundaries.
 
 ## Remaining financial limitations
+
+Pricing update: the owner approved reducing only the single-video price to $6.99. A new Stripe USD 699-cent price replaced the Cloudflare single-video price binding. All seven pricing pages, structured-data offers and the live plan API were verified. A Checkout session created through the production site's actual account endpoint reported USD 6.99 and was expired unpaid. All 22 tests passed. Deployed Worker version: `21777654-d714-4e96-a507-5b6d1a7e46ed`.
 
 - Real card payment/settlement and actual paid subscription renewal were not executed, as explicitly instructed by the owner. Signed paid callbacks and monthly invoice behavior were tested locally with isolated fixtures; this is not a real production settlement test.
 - The existing Stripe account displays `Update your bank account`: its payout bank has an error and payout information must be updated by the owner. This is an account-level payout issue, not evidence that the Genjutsu Checkout integration fails. The restricted API key cannot read account capability status; no permissions were widened. No bank information was changed.

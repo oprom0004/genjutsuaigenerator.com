@@ -75,7 +75,7 @@ test('Optional analytics is bounded, deduplicated, cannot fabricate payment and 
 });
 test('Signed successful Stripe callbacks fulfill once and leave unsigned or unpaid events without credits',async t=>{
  const f=fixture(t),owner=await f.signUp();await f.api('/api/credits/checkout',{planId:'video_1',requestKey:crypto.randomUUID()});const p=f.app.row('SELECT * FROM credit_purchases WHERE owner=?',owner);
- const event={id:'evt_signed_success',type:'checkout.session.completed',data:{object:{id:p.checkout,client_reference_id:p.id,metadata:{appId:'genjutsuaigenerator.com',purchaseId:p.id},payment_status:'unpaid',currency:'usd',amount_total:999,mode:'payment',payment_intent:'pi_signed'}}};
+ const event={id:'evt_signed_success',type:'checkout.session.completed',data:{object:{id:p.checkout,client_reference_id:p.id,metadata:{appId:'genjutsuaigenerator.com',purchaseId:p.id},payment_status:'unpaid',currency:'usd',amount_total:699,mode:'payment',payment_intent:'pi_signed'}}};
  const send=async(e,signed=true)=>{const raw=JSON.stringify(e),time=Math.floor(Date.now()/1000),signature=crypto.createHmac('sha256','whsec_mock').update(time+'.'+raw).digest('hex');return f.app.fetch(new Request(ORIGIN+'/api/payments/webhook',{method:'POST',headers:signed?{'stripe-signature':`t=${time},v1=${signature}`}:{},body:raw}));};
  assert.equal((await send(event,false)).status,400);assert.equal(f.app.wallet(owner).balance,0);
  assert.equal((await send(event)).status,200);assert.equal(f.app.wallet(owner).balance,0);

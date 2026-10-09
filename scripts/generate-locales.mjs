@@ -191,7 +191,7 @@ const localeBase = {
         title: "Simple, Honest Pricing",
         intro: "1 video credit creates one full animated video. No hidden fees or recurring traps.",
         packs: [
-          { name: "1 Video Pack", price: "$9.99", unit: "$9.99/video", desc: "1 video credit · Never expires", popular: false },
+          { name: "1 Video Pack", price: "$6.99", unit: "$6.99/video", desc: "1 video credit · Never expires", popular: false },
           { name: "3 Videos Pack", price: "$17.99", unit: "$5.99/video", desc: "3 video credits · Only $5.99/video · Popular", popular: true },
           { name: "10 Videos Pack", price: "$49.99", unit: "$4.99/video", desc: "10 video credits · Only $4.99/video · Best Value", popular: false }
         ],
@@ -498,7 +498,7 @@ const localeBase = {
         title: "シンプルでわかりやすい料金体系",
         intro: "1クレジットで完全な動画を1本生成できます。隠れた費用や勝手な課金は一切ありません。",
         packs: [
-          { name: "1本お試しパック", price: "$9.99", unit: "$9.99/本", desc: "1クレジット · 有効期限なし", popular: false },
+          { name: "1本お試しパック", price: "$6.99", unit: "$6.99/本", desc: "1クレジット · 有効期限なし", popular: false },
           { name: "3本人気パック", price: "$17.99", unit: "$5.99/本", desc: "3クレジット · 1本あたり$5.99 · 一番人気", popular: true },
           { name: "10本お得パック", price: "$49.99", unit: "$4.99/本", desc: "10クレジット · 1本あたり$4.99 · 最安値", popular: false }
         ],

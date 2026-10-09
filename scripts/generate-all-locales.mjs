@@ -149,7 +149,7 @@ const es = cloneWith(en, {
       title: "Precios Claros y Honestos",
       intro: "1 crédito de video crea un video animado completo. Sin tarifas ocultas ni suscripciones forzosas.",
       packs: [
-        { name: "Paquete 1 Video", price: "$9.99", unit: "$9.99/video", desc: "1 crédito · Sin caducidad", popular: false },
+        { name: "Paquete 1 Video", price: "$6.99", unit: "$6.99/video", desc: "1 crédito · Sin caducidad", popular: false },
         { name: "Paquete 3 Videos", price: "$17.99", unit: "$5.99/video", desc: "3 créditos · Solo $5.99/video · Popular", popular: true },
         { name: "Paquete 10 Videos", price: "$49.99", unit: "$4.99/video", desc: "10 créditos · Solo $4.99/video · Mejor Valor", popular: false }
       ],
